@@ -1,0 +1,5 @@
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Infrastructure.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Infrastructure.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.pdb

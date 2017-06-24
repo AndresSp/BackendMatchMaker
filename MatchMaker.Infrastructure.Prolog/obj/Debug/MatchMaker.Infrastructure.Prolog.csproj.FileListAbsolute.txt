@@ -1,0 +1,5 @@
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.csprojResolveAssemblyReference.cache
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.pdb

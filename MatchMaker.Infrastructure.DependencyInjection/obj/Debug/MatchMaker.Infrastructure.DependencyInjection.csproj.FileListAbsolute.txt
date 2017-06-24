@@ -1,0 +1,7 @@
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\MatchMaker.Infrastructure.DependencyInjection.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\MatchMaker.Infrastructure.DependencyInjection.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\Ninject.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\Ninject.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.DependencyInjection\obj\Debug\MatchMaker.Infrastructure.DependencyInjection.csprojResolveAssemblyReference.cache
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.DependencyInjection\obj\Debug\MatchMaker.Infrastructure.DependencyInjection.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.DependencyInjection\obj\Debug\MatchMaker.Infrastructure.DependencyInjection.pdb

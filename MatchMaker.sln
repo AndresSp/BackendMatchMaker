@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchMaker.Infrastructure",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchMaker.Infrastructure.DependencyInjection", "MatchMaker.Infrastructure.DependencyInjection\MatchMaker.Infrastructure.DependencyInjection.csproj", "{40595B00-45DD-4D26-B011-FFCF811196B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchMaker.Infrastructure.Prolog", "MatchMaker.Infrastructure.Prolog\MatchMaker.Infrastructure.Prolog.csproj", "{8E4FE552-9259-4523-BF76-DBD96FF8ED51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{40595B00-45DD-4D26-B011-FFCF811196B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40595B00-45DD-4D26-B011-FFCF811196B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40595B00-45DD-4D26-B011-FFCF811196B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4FE552-9259-4523-BF76-DBD96FF8ED51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4FE552-9259-4523-BF76-DBD96FF8ED51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4FE552-9259-4523-BF76-DBD96FF8ED51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4FE552-9259-4523-BF76-DBD96FF8ED51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +54,6 @@ Global
 		{CD7C8345-AA27-4C80-ABEC-C956248310B0} = {64DB8993-0306-4738-A857-C2E95E44051C}
 		{9246B06B-DCDA-4310-8393-119EB17D75D1} = {445AAEA3-63AC-4D52-9A5C-386E5550C393}
 		{40595B00-45DD-4D26-B011-FFCF811196B3} = {445AAEA3-63AC-4D52-9A5C-386E5550C393}
+		{8E4FE552-9259-4523-BF76-DBD96FF8ED51} = {445AAEA3-63AC-4D52-9A5C-386E5550C393}
 	EndGlobalSection
 EndGlobal

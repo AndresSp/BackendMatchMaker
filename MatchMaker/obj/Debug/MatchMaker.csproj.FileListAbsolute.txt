@@ -1,0 +1,8 @@
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\obj\Debug\MatchMaker.csprojResolveAssemblyReference.cache
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\obj\Debug\MatchMaker.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\obj\Debug\MatchMaker.pdb

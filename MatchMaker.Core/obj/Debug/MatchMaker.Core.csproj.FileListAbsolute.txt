@@ -1,0 +1,5 @@
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\bin\Debug\MatchMaker.Core.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\bin\Debug\MatchMaker.Core.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.csprojResolveAssemblyReference.cache
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.pdb
