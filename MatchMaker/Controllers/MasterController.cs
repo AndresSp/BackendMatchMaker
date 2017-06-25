@@ -230,5 +230,40 @@ namespace MatchMaker.Controllers
                 throw new HttpResponseException(HttpStatusCode.NotAcceptable);
             }
         }
+
+        [Route("wsgetregisteredusers")]
+        [HttpGet]
+        public HttpResponseMessage GetRegisteredUsers()
+        {
+            try
+            {
+                ResultResponseModel result = new ResultResponseModel();
+                List<sp_UserSelect_Result> content = _db.UserMasterSelect();
+                result.Result = content;
+                result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            catch (ArgumentNullException)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 400, ErrorMessage = HttpStatusCode.BadRequest };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (EntityCommandExecutionException e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (Exception e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 406, ErrorMessage = e.Message };
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, objresult);
+                throw new HttpResponseException(HttpStatusCode.NotAcceptable);
+            }
+        }
     }
 }
