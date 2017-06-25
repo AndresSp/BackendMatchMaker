@@ -11,6 +11,11 @@ namespace MatchMaker.Core.Interfaces.Repository
     {
         #region Master Select
         List<sp_BooksSelect_Result> BooksMasterSelect(int pGenreId);
+        List<sp_EntertainmentSelect_Result> EntertainmentMasterSelect(int pGenreId);
+        List<sp_ExpArtsSelect_Result> ExpArtsMasterSelect(int pGenreId);
+        List<sp_MusicSelect_Result> MusicMasterSelect(int pGenreId);
+        List<sp_SportsSelect_Result> SportsMasterSelect(int pGenreId);
+        List<sp_FacultySelect_Result> FacultyMasterSelect(int pFacultyId);
         #endregion
     }
 }

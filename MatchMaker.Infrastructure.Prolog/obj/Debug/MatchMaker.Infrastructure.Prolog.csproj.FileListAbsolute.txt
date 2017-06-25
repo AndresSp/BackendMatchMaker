@@ -9,3 +9,4 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.csprojResolveAssemblyReference.cache
