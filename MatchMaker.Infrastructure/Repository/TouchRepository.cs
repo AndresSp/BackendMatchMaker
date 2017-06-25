@@ -18,12 +18,6 @@ namespace MatchMaker.Infrastructure.Repository
                 var pBookMaster = context.sp_BooksSelect(pGenreId).ToList();
                 return pBookMaster;
             }
-
-            //using (CasadeLasBateriasDataContainer context = new CasadeLasBateriasDataContainer())
-            //{
-            //    var pBrandMaster = context.sp_SelectBrandMaster(pId, pIdExt, pIdUser, pSort, pStatus, pAppC, pAppI).ToList();
-            //    return pBrandMaster;
-            //}
         }
     }
 }
