@@ -1,27 +1,11 @@
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll.config
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll.config
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.xml
-<<<<<<< HEAD
-=======
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.csprojResolveAssemblyReference.cache
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll.config
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.pdb
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.csprojResolveAssemblyReference.cache
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.pdb
->>>>>>> origin/master
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.pdb
