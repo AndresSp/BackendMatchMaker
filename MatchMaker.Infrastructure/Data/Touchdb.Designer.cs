@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\Data\Touchdb.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure\Data\Touchdb.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
