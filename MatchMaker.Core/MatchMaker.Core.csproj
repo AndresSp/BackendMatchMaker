@@ -30,8 +30,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,11 +52,93 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\Repository\ITouchRepository.cs" />
+    <Compile Include="Model\Book.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Entertainment.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ExpArt.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Faculty.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Music.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ResultResponseModel.cs" />
+    <Compile Include="Model\Sport.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_BooksSelect_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_EntertainmentSelect_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_ExpArtsSelect_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_FacultySelect_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_GetUserMatchs_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_MusicSelect_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_SportsSelect_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_UserRegister_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_UserSelect_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\touchdb.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Model\User.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\UserMatch.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\User_Books.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\User_Entertainment.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\User_ExpArts.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\User_Music.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\User_Sport.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interfaces\Services\" />
-    <Folder Include="Model\" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\touchdb.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>touchdb.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

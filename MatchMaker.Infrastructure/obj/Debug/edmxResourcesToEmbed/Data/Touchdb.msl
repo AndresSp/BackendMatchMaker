@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="touchdbModelStoreContainer" CdmEntityContainer="touchdbEntities">
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="touchdbModel.Book">
+        <MappingFragment StoreEntitySet="Books">
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Entertainments">
+      <EntityTypeMapping TypeName="touchdbModel.Entertainment">
+        <MappingFragment StoreEntitySet="Entertainment">
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpArts">
+      <EntityTypeMapping TypeName="touchdbModel.ExpArt">
+        <MappingFragment StoreEntitySet="ExpArts">
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Faculties">
+      <EntityTypeMapping TypeName="touchdbModel.Faculty">
+        <MappingFragment StoreEntitySet="Faculty">
+          <ScalarProperty Name="FacultyId" ColumnName="FacultyId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Musics">
+      <EntityTypeMapping TypeName="touchdbModel.Music">
+        <MappingFragment StoreEntitySet="Music">
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sports">
+      <EntityTypeMapping TypeName="touchdbModel.Sport">
+        <MappingFragment StoreEntitySet="Sports">
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="touchdbModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="NacDate" ColumnName="NacDate" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Faculty" ColumnName="Faculty" />
+          <ScalarProperty Name="TravelW" ColumnName="TravelW" />
+          <ScalarProperty Name="TechW" ColumnName="TechW" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Books">
+      <EntityTypeMapping TypeName="touchdbModel.User_Books">
+        <MappingFragment StoreEntitySet="User_Books">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Entertainment">
+      <EntityTypeMapping TypeName="touchdbModel.User_Entertainment">
+        <MappingFragment StoreEntitySet="User_Entertainment">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_ExpArts">
+      <EntityTypeMapping TypeName="touchdbModel.User_ExpArts">
+        <MappingFragment StoreEntitySet="User_ExpArts">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Music">
+      <EntityTypeMapping TypeName="touchdbModel.User_Music">
+        <MappingFragment StoreEntitySet="User_Music">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Sport">
+      <EntityTypeMapping TypeName="touchdbModel.User_Sport">
+        <MappingFragment StoreEntitySet="User_Sport">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserMatches">
+      <EntityTypeMapping TypeName="touchdbModel.UserMatch">
+        <MappingFragment StoreEntitySet="UserMatch">
+          <ScalarProperty Name="UserId_1" ColumnName="UserId_1" />
+          <ScalarProperty Name="UserId_2" ColumnName="UserId_2" />
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_BooksSelect" FunctionName="touchdbModel.Store.sp_BooksSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_BooksSelect_Result">
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_EntertainmentSelect" FunctionName="touchdbModel.Store.sp_EntertainmentSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_EntertainmentSelect_Result">
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ExpArtsSelect" FunctionName="touchdbModel.Store.sp_ExpArtsSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_ExpArtsSelect_Result">
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_FacultySelect" FunctionName="touchdbModel.Store.sp_FacultySelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_FacultySelect_Result">
+          <ScalarProperty Name="FacultyId" ColumnName="FacultyId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_MusicSelect" FunctionName="touchdbModel.Store.sp_MusicSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_MusicSelect_Result">
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_SportsSelect" FunctionName="touchdbModel.Store.sp_SportsSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_SportsSelect_Result">
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UserDelete" FunctionName="touchdbModel.Store.sp_UserDelete" />
+    <FunctionImportMapping FunctionImportName="sp_UserRegister" FunctionName="touchdbModel.Store.sp_UserRegister">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_UserRegister_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="NacDate" ColumnName="NacDate" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Faculty" ColumnName="Faculty" />
+          <ScalarProperty Name="TravelW" ColumnName="TravelW" />
+          <ScalarProperty Name="TechW" ColumnName="TechW" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UserSelect" FunctionName="touchdbModel.Store.sp_UserSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_UserSelect_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="NacDate" ColumnName="NacDate" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Faculty" ColumnName="Faculty" />
+          <ScalarProperty Name="TravelW" ColumnName="TravelW" />
+          <ScalarProperty Name="TechW" ColumnName="TechW" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetUserMatchs" FunctionName="touchdbModel.Store.sp_GetUserMatchs">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserMatchs_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="NacDate" ColumnName="NacDate" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
+          <ScalarProperty Name="Faculty" ColumnName="Faculty" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
