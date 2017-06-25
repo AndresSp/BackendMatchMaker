@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CSProlog, Version=5.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CSProlog.5.0.0.1\lib\net35\CSProlog.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -50,11 +53,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MatchMaker.Infrastructure\MatchMaker.Infrastructure.csproj">
+      <Project>{9246b06b-dcda-4310-8393-119eb17d75d1}</Project>
+      <Name>MatchMaker.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MatchMaker\MatchMaker.csproj">
+      <Project>{0ac685b6-e291-4f79-9b63-d682051d9421}</Project>
+      <Name>MatchMaker</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
