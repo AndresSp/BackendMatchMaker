@@ -1,5 +1,15 @@
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Infrastructure.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Infrastructure.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.csprojResolveAssemblyReference.cache
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Infrastructure.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Core.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Core.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\Newtonsoft.Json.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Core.dll.config
