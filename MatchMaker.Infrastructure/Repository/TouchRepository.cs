@@ -11,6 +11,7 @@ namespace MatchMaker.Infrastructure.Repository
 {
     public class TouchRepository : ITouchRepository
     {
+        #region Maestros
         public List<sp_BooksSelect_Result> BooksMasterSelect(int pGenreId)
         {
             using (touchdbEntities context = new touchdbEntities())
@@ -64,5 +65,52 @@ namespace MatchMaker.Infrastructure.Repository
                 return pFacultyMaster;
             }
         }
+
+        public List<sp_UserSelect_Result> UserMasterSelect()
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pRegisteredUsers = context.sp_UserSelect().ToList();
+                return pRegisteredUsers;
+            }
+        }
+        #endregion
+
+        #region User Data Management
+        public List<sp_GetUserMatchs_Result> GetUserMatch(string pUserId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pUserMatch = context.sp_GetUserMatchs(Guid.Parse(pUserId)).ToList();
+                return pUserMatch;
+            }
+        }
+
+        public sp_UserSelectById_Result GetUserProfile(string pUserId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pUserProfile = context.sp_UserSelectById(Guid.Parse(pUserId)).FirstOrDefault();
+                return pUserProfile;
+            }
+        }
+
+        public sp_UserRegister_Result RegisterUser(string pEmail, string pPassword, string pFirstName, string pLastName)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pRegisteredUser = context.sp_UserRegister(pEmail, pPassword, pFirstName, pLastName).FirstOrDefault();
+                return pRegisteredUser;
+            }
+        }
+
+        public void DeleteUser(string pUserId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                context.sp_UserDelete(Guid.Parse(pUserId));
+            }
+        }
+        #endregion
     }
 }

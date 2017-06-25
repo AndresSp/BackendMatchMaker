@@ -228,30 +228,6 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_UserMatch_User">
-    <End Role="User" Type="Self.User" Multiplicity="0..1" />
-    <End Role="UserMatch" Type="Self.UserMatch" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="User">
-        <PropertyRef Name="UserId" />
-      </Principal>
-      <Dependent Role="UserMatch">
-        <PropertyRef Name="UserId_2" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_UserMatch_User1">
-    <End Role="User" Type="Self.User" Multiplicity="0..1" />
-    <End Role="UserMatch" Type="Self.UserMatch" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="User">
-        <PropertyRef Name="UserId" />
-      </Principal>
-      <Dependent Role="UserMatch">
-        <PropertyRef Name="UserId_1" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
   <Function Name="sp_BooksSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="GenreId" Type="int" Mode="In" />
   </Function>
@@ -277,21 +253,13 @@
     <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
   </Function>
   <Function Name="sp_UserRegister" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
-    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
     <Parameter Name="Password" Type="nvarchar" Mode="In" />
     <Parameter Name="FirstName" Type="nvarchar" Mode="In" />
     <Parameter Name="LastName" Type="nvarchar" Mode="In" />
-    <Parameter Name="NacDate" Type="date" Mode="In" />
-    <Parameter Name="Gender" Type="char" Mode="In" />
-    <Parameter Name="GenderPref" Type="char" Mode="In" />
-    <Parameter Name="Email" Type="nvarchar" Mode="In" />
-    <Parameter Name="Faculty" Type="int" Mode="In" />
-    <Parameter Name="TravelW" Type="int" Mode="In" />
-    <Parameter Name="TechW" Type="int" Mode="In" />
-    <Parameter Name="ImageURL" Type="nvarchar" Mode="In" />
   </Function>
-  <Function Name="sp_UserSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+  <Function Name="sp_UserSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_UserSelectById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
   </Function>
   <EntityContainer Name="touchdbModelStoreContainer">
@@ -347,14 +315,6 @@
     <AssociationSet Name="FK__User_Spor__UserI__4BAC3F29" Association="Self.FK__User_Spor__UserI__4BAC3F29">
       <End Role="User" EntitySet="User" />
       <End Role="User_Sport" EntitySet="User_Sport" />
-    </AssociationSet>
-    <AssociationSet Name="FK_UserMatch_User" Association="Self.FK_UserMatch_User">
-      <End Role="User" EntitySet="User" />
-      <End Role="UserMatch" EntitySet="UserMatch" />
-    </AssociationSet>
-    <AssociationSet Name="FK_UserMatch_User1" Association="Self.FK_UserMatch_User1">
-      <End Role="User" EntitySet="User" />
-      <End Role="UserMatch" EntitySet="UserMatch" />
     </AssociationSet>
   </EntityContainer>
 </Schema>

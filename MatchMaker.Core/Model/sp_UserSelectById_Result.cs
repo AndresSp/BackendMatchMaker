@@ -11,7 +11,7 @@ namespace MatchMaker.Core.Model
 {
     using System;
     
-    public partial class sp_UserRegister_Result
+    public partial class sp_UserSelectById_Result
     {
         public System.Guid UserId { get; set; }
         public string Password { get; set; }

@@ -175,7 +175,6 @@
       <ResultMapping>
         <ComplexTypeMapping TypeName="touchdbModel.sp_UserRegister_Result">
           <ScalarProperty Name="UserId" ColumnName="UserId" />
-          <ScalarProperty Name="UserName" ColumnName="UserName" />
           <ScalarProperty Name="Password" ColumnName="Password" />
           <ScalarProperty Name="FirstName" ColumnName="FirstName" />
           <ScalarProperty Name="LastName" ColumnName="LastName" />
@@ -219,6 +218,24 @@
           <ScalarProperty Name="Gender" ColumnName="Gender" />
           <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
           <ScalarProperty Name="Faculty" ColumnName="Faculty" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UserSelectById" FunctionName="touchdbModel.Store.sp_UserSelectById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_UserSelectById_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="NacDate" ColumnName="NacDate" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Faculty" ColumnName="Faculty" />
+          <ScalarProperty Name="TravelW" ColumnName="TravelW" />
+          <ScalarProperty Name="TechW" ColumnName="TechW" />
           <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
         </ComplexTypeMapping>
       </ResultMapping>

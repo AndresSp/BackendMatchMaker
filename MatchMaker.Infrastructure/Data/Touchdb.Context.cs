@@ -105,15 +105,11 @@ namespace MatchMaker.Infrastructure.Data
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_UserDelete", userIdParameter);
         }
     
-        public virtual ObjectResult<sp_UserRegister_Result> sp_UserRegister(Nullable<System.Guid> userId, string userName, string password, string firstName, string lastName, Nullable<System.DateTime> nacDate, string gender, string genderPref, string email, Nullable<int> faculty, Nullable<int> travelW, Nullable<int> techW, string imageURL)
+        public virtual ObjectResult<sp_UserRegister_Result> sp_UserRegister(string email, string password, string firstName, string lastName)
         {
-            var userIdParameter = userId.HasValue ?
-                new ObjectParameter("UserId", userId) :
-                new ObjectParameter("UserId", typeof(System.Guid));
-    
-            var userNameParameter = userName != null ?
-                new ObjectParameter("UserName", userName) :
-                new ObjectParameter("UserName", typeof(string));
+            var emailParameter = email != null ?
+                new ObjectParameter("Email", email) :
+                new ObjectParameter("Email", typeof(string));
     
             var passwordParameter = password != null ?
                 new ObjectParameter("Password", password) :
@@ -127,48 +123,12 @@ namespace MatchMaker.Infrastructure.Data
                 new ObjectParameter("LastName", lastName) :
                 new ObjectParameter("LastName", typeof(string));
     
-            var nacDateParameter = nacDate.HasValue ?
-                new ObjectParameter("NacDate", nacDate) :
-                new ObjectParameter("NacDate", typeof(System.DateTime));
-    
-            var genderParameter = gender != null ?
-                new ObjectParameter("Gender", gender) :
-                new ObjectParameter("Gender", typeof(string));
-    
-            var genderPrefParameter = genderPref != null ?
-                new ObjectParameter("GenderPref", genderPref) :
-                new ObjectParameter("GenderPref", typeof(string));
-    
-            var emailParameter = email != null ?
-                new ObjectParameter("Email", email) :
-                new ObjectParameter("Email", typeof(string));
-    
-            var facultyParameter = faculty.HasValue ?
-                new ObjectParameter("Faculty", faculty) :
-                new ObjectParameter("Faculty", typeof(int));
-    
-            var travelWParameter = travelW.HasValue ?
-                new ObjectParameter("TravelW", travelW) :
-                new ObjectParameter("TravelW", typeof(int));
-    
-            var techWParameter = techW.HasValue ?
-                new ObjectParameter("TechW", techW) :
-                new ObjectParameter("TechW", typeof(int));
-    
-            var imageURLParameter = imageURL != null ?
-                new ObjectParameter("ImageURL", imageURL) :
-                new ObjectParameter("ImageURL", typeof(string));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserRegister_Result>("sp_UserRegister", userIdParameter, userNameParameter, passwordParameter, firstNameParameter, lastNameParameter, nacDateParameter, genderParameter, genderPrefParameter, emailParameter, facultyParameter, travelWParameter, techWParameter, imageURLParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserRegister_Result>("sp_UserRegister", emailParameter, passwordParameter, firstNameParameter, lastNameParameter);
         }
     
-        public virtual ObjectResult<sp_UserSelect_Result> sp_UserSelect(Nullable<System.Guid> userId)
+        public virtual ObjectResult<sp_UserSelect_Result> sp_UserSelect()
         {
-            var userIdParameter = userId.HasValue ?
-                new ObjectParameter("UserId", userId) :
-                new ObjectParameter("UserId", typeof(System.Guid));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserSelect_Result>("sp_UserSelect", userIdParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserSelect_Result>("sp_UserSelect");
         }
     
         public virtual ObjectResult<sp_GetUserMatchs_Result> sp_GetUserMatchs(Nullable<System.Guid> userId)
@@ -178,6 +138,15 @@ namespace MatchMaker.Infrastructure.Data
                 new ObjectParameter("UserId", typeof(System.Guid));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_GetUserMatchs_Result>("sp_GetUserMatchs", userIdParameter);
+        }
+    
+        public virtual ObjectResult<sp_UserSelectById_Result> sp_UserSelectById(Nullable<System.Guid> userId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserSelectById_Result>("sp_UserSelectById", userIdParameter);
         }
     }
 }
