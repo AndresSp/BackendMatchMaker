@@ -111,6 +111,15 @@ namespace MatchMaker.Infrastructure.Repository
                 context.sp_UserDelete(Guid.Parse(pUserId));
             }
         }
+
+        public sp_User_BooksRegister_Result SetUserLikesBooks(string pUserId, int pGenreId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pBookRegistered = context.sp_User_BooksRegister(Guid.Parse(pUserId), pGenreId).FirstOrDefault();
+                return pBookRegistered;
+            }
+        }
         #endregion
     }
 }

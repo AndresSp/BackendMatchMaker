@@ -148,5 +148,18 @@ namespace MatchMaker.Infrastructure.Data
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserSelectById_Result>("sp_UserSelectById", userIdParameter);
         }
+    
+        public virtual ObjectResult<sp_User_BooksRegister_Result> sp_User_BooksRegister(Nullable<System.Guid> userId, Nullable<int> genreId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            var genreIdParameter = genreId.HasValue ?
+                new ObjectParameter("GenreId", genreId) :
+                new ObjectParameter("GenreId", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_BooksRegister_Result>("sp_User_BooksRegister", userIdParameter, genreIdParameter);
+        }
     }
 }

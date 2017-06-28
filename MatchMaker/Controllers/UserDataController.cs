@@ -158,6 +158,41 @@ namespace MatchMaker.Controllers
             }
         }
 
+        [Route("wssetuserbooklike")]
+        [HttpPost]
+        public HttpResponseMessage SetUserBookLike(string pUserId, int pGenreId)
+        {
+            try
+            {
+                ResultResponseModel result = new ResultResponseModel();
+                sp_User_BooksRegister_Result content =  _db.SetUserLikesBooks(pUserId, pGenreId);
+                result.Result = content;
+                result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            catch (ArgumentNullException)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 400, ErrorMessage = HttpStatusCode.BadRequest };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (EntityCommandExecutionException e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (Exception e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 406, ErrorMessage = e.Message };
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, objresult);
+                throw new HttpResponseException(HttpStatusCode.NotAcceptable);
+            }
+        }
+
 
     }
 }

@@ -240,5 +240,14 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_BooksRegister" FunctionName="touchdbModel.Store.sp_User_BooksRegister">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_User_BooksRegister_Result">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

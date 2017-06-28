@@ -24,6 +24,7 @@ namespace MatchMaker.Core.Interfaces.Repository
         sp_UserSelectById_Result GetUserProfile(string pUserId);
         sp_UserRegister_Result RegisterUser(string pEmail, string pPassword, string pFirstName, string pLastName);
         void DeleteUser(string pUserId);
+        sp_User_BooksRegister_Result SetUserLikesBooks(string pUserId, int pGenreId);
         //sp for comparing passwords
         #endregion
     }

@@ -11,10 +11,10 @@ namespace MatchMaker.Infrastructure.Prolog
     class IA
     {
         MatchMaker.Infrastructure.Repository.TouchRepository touchRep = new MatchMaker.Infrastructure.Repository.TouchRepository();
-        public void fdasf()
-        {
-            touchRep.BooksMasterSelect(
-        }
+        //public void fdasf()
+        //{
+        //    touchRep.BooksMasterSelect(
+        //}
 
     }
 }
