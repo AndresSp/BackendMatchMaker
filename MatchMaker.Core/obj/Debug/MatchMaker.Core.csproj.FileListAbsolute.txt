@@ -10,3 +10,14 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\bin\Debug\Newtonsoft.
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.pdb
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.csprojResolveAssemblyReference.cache
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\MatchMaker.Core.dll.config
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\MatchMaker.Core.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\MatchMaker.Core.pdb
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\EntityFramework.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\EntityFramework.xml
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.pdb

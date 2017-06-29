@@ -17,7 +17,7 @@
         <EntityTypeShape EntityType="touchdbModel.User_ExpArts" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
         <EntityTypeShape EntityType="touchdbModel.User_Music" Width="1.5" PointX="6" PointY="8.375" IsExpanded="true" />
         <EntityTypeShape EntityType="touchdbModel.User_Sport" Width="1.5" PointX="6" PointY="5.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="touchdbModel.UserMatch" Width="1.5" PointX="3" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="touchdbModel.UserMatch" Width="1.5" PointX="3" PointY="20.25" IsExpanded="true" />
         <AssociationConnector Association="touchdbModel.FK__User_Book__Genre__5070F446" ManuallyRouted="false" />
         <AssociationConnector Association="touchdbModel.FK__User_Ente__Genre__5BE2A6F2" ManuallyRouted="false" />
         <AssociationConnector Association="touchdbModel.FK__User_ExpA__Genre__5441852A" ManuallyRouted="false" />

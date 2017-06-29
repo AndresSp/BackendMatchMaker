@@ -249,5 +249,86 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_BooksSelect" FunctionName="touchdbModel.Store.sp_User_BooksSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_User_BooksSelect_Result">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_EntertainmentRegister" FunctionName="touchdbModel.Store.sp_User_EntertainmentRegister">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_User_EntertainmentRegister_Result">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_EntertainmentSelect" FunctionName="touchdbModel.Store.sp_User_EntertainmentSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_User_EntertainmentSelect_Result">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_ExpArtsRegister" FunctionName="touchdbModel.Store.sp_User_ExpArtsRegister">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_User_ExpArtsRegister_Result">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_ExpArtsSelect" FunctionName="touchdbModel.Store.sp_User_ExpArtsSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_User_ExpArtsSelect_Result">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_MusicRegister" FunctionName="touchdbModel.Store.sp_User_MusicRegister">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_User_MusicRegister_Result">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_MusicSelect" FunctionName="touchdbModel.Store.sp_User_MusicSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_User_MusicSelect_Result">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_SportRegister" FunctionName="touchdbModel.Store.sp_User_SportRegister">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_User_SportRegister_Result">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_SportSelect" FunctionName="touchdbModel.Store.sp_User_SportSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_User_SportSelect_Result">
+          <ScalarProperty Name="MatchId" ColumnName="MatchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

@@ -376,6 +376,67 @@
       <Parameter Name="UserId" Mode="In" Type="Guid" />
       <Parameter Name="GenreId" Mode="In" Type="Int32" />
     </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(touchdbModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(touchdbModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="sp_User_BooksSelect" ReturnType="Collection(touchdbModel.sp_User_BooksSelect_Result)">
+      <Parameter Name="MatchId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_EntertainmentRegister" ReturnType="Collection(touchdbModel.sp_User_EntertainmentRegister_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Guid" />
+      <Parameter Name="GenreId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_EntertainmentSelect" ReturnType="Collection(touchdbModel.sp_User_EntertainmentSelect_Result)">
+      <Parameter Name="MatchId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_ExpArtsRegister" ReturnType="Collection(touchdbModel.sp_User_ExpArtsRegister_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Guid" />
+      <Parameter Name="GenreId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_ExpArtsSelect" ReturnType="Collection(touchdbModel.sp_User_ExpArtsSelect_Result)">
+      <Parameter Name="MatchId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_MusicRegister" ReturnType="Collection(touchdbModel.sp_User_MusicRegister_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Guid" />
+      <Parameter Name="GenreId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_MusicSelect" ReturnType="Collection(touchdbModel.sp_User_MusicSelect_Result)">
+      <Parameter Name="MatchId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_SportRegister" ReturnType="Collection(touchdbModel.sp_User_SportRegister_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Guid" />
+      <Parameter Name="GenreId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_SportSelect" ReturnType="Collection(touchdbModel.sp_User_SportSelect_Result)">
+      <Parameter Name="MatchId" Mode="In" Type="Int32" />
+    </FunctionImport>
   </EntityContainer>
   <ComplexType Name="sp_BooksSelect_Result">
     <Property Type="Int32" Name="GenreId" Nullable="false" />
@@ -455,6 +516,62 @@
     <Property Type="String" Name="ImageURL" Nullable="true" MaxLength="100" />
   </ComplexType>
   <ComplexType Name="sp_User_BooksRegister_Result">
+    <Property Type="Int32" Name="MatchId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_User_BooksSelect_Result">
+    <Property Type="Int32" Name="MatchId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_User_EntertainmentRegister_Result">
+    <Property Type="Int32" Name="MatchId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_User_EntertainmentSelect_Result">
+    <Property Type="Int32" Name="MatchId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_User_ExpArtsRegister_Result">
+    <Property Type="Int32" Name="MatchId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_User_ExpArtsSelect_Result">
+    <Property Type="Int32" Name="MatchId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_User_MusicRegister_Result">
+    <Property Type="Int32" Name="MatchId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_User_MusicSelect_Result">
+    <Property Type="Int32" Name="MatchId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_User_SportRegister_Result">
+    <Property Type="Int32" Name="MatchId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_User_SportSelect_Result">
     <Property Type="Int32" Name="MatchId" Nullable="false" />
     <Property Type="Guid" Name="UserId" Nullable="false" />
     <Property Type="Int32" Name="GenreId" Nullable="false" />

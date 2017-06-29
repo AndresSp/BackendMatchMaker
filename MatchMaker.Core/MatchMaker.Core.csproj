@@ -87,6 +87,12 @@
     <Compile Include="Model\sp_GetUserMatchs_Result.cs">
       <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_helpdiagrams_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\sp_MusicSelect_Result.cs">
       <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>
@@ -103,6 +109,33 @@
       <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\sp_User_BooksRegister_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_User_BooksSelect_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_User_EntertainmentRegister_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_User_EntertainmentSelect_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_User_ExpArtsRegister_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_User_ExpArtsSelect_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_User_MusicRegister_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_User_MusicSelect_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_User_SportRegister_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_User_SportSelect_Result.cs">
       <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\touchdb.cs">

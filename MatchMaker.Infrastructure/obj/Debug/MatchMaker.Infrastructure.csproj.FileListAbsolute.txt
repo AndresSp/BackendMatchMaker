@@ -28,3 +28,18 @@ C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure\bin\Deb
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.csprojResolveAssemblyReference.cache
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.dll
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.pdb
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Infrastructure.dll.config
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Infrastructure.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Infrastructure.pdb
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Core.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Core.pdb
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Core.dll.config
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure\obj\Debug\MatchMaker.Infrastructure.pdb

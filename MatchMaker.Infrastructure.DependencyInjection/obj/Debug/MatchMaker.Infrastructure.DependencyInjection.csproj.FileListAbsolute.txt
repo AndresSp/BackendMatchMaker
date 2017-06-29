@@ -38,3 +38,23 @@ C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.Depende
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\obj\Debug\MatchMaker.Infrastructure.DependencyInjection.csprojResolveAssemblyReference.cache
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\obj\Debug\MatchMaker.Infrastructure.DependencyInjection.dll
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\obj\Debug\MatchMaker.Infrastructure.DependencyInjection.pdb
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\MatchMaker.Infrastructure.DependencyInjection.dll.config
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\MatchMaker.Infrastructure.DependencyInjection.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\MatchMaker.Infrastructure.DependencyInjection.pdb
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\EntityFramework.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\MatchMaker.Core.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\MatchMaker.Infrastructure.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\Ninject.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\MatchMaker.Core.pdb
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\MatchMaker.Core.dll.config
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\MatchMaker.Infrastructure.pdb
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\MatchMaker.Infrastructure.dll.config
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\EntityFramework.xml
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\bin\Debug\Ninject.xml
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\obj\Debug\MatchMaker.Infrastructure.DependencyInjection.csprojResolveAssemblyReference.cache
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\obj\Debug\MatchMaker.Infrastructure.DependencyInjection.dll
+C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.DependencyInjection\obj\Debug\MatchMaker.Infrastructure.DependencyInjection.pdb
