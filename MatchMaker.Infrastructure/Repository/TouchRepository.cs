@@ -122,5 +122,8 @@ namespace MatchMaker.Infrastructure.Repository
         }
         #endregion
 
+        #region User Likes Management (IA)
+
+        #endregion
     }
 }
