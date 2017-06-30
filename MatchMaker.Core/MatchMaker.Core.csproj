@@ -139,9 +139,9 @@
       <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\touchdb.cs">
-      <DependentUpon>touchdb.tt</DependentUpon>
-      <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\User.cs">
       <DependentUpon>touchdb.tt</DependentUpon>
