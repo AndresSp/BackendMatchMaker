@@ -160,7 +160,6 @@ namespace MatchMaker.Infrastructure.Repository
         #endregion
 
         #region User Likes Management (IA)
-        //public List<sp_>
 
         #endregion
     }
