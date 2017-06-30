@@ -25,6 +25,10 @@ namespace MatchMaker.Core.Interfaces.Repository
         sp_UserRegister_Result RegisterUser(string pEmail, string pPassword, string pFirstName, string pLastName);
         void DeleteUser(string pUserId);
         sp_User_BooksRegister_Result SetUserLikesBooks(string pUserId, int pGenreId);
+        sp_User_EntertainmentRegister_Result SetUserLikesEntertaiment(string pUserId, int pGenreId);
+        sp_User_ExpArtsRegister_Result SetUserLikesExpArts(string pUserId, int pGenreId);
+        sp_User_MusicRegister_Result SetUserLikesMusic(string pUserId, int pGenreId);
+        sp_User_SportRegister_Result SetUserLikesSport(string pUserId, int pGenreId);
         //sp for comparing passwords
         #endregion
     }

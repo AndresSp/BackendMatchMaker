@@ -77,6 +77,7 @@ namespace MatchMaker.Infrastructure.Repository
         #endregion
 
         #region User Data Management
+
         public List<sp_GetUserMatchs_Result> GetUserMatch(string pUserId)
         {
             using (touchdbEntities context = new touchdbEntities())
@@ -120,9 +121,46 @@ namespace MatchMaker.Infrastructure.Repository
                 return pBookRegistered;
             }
         }
+
+        public sp_User_EntertainmentRegister_Result SetUserLikesEntertaiment(string pUserId, int pGenreId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pEntertainmentRegistered = context.sp_User_EntertainmentRegister(Guid.Parse(pUserId), pGenreId).FirstOrDefault();
+                return pEntertainmentRegistered;
+            }
+        }
+
+        public sp_User_ExpArtsRegister_Result SetUserLikesExpArts(string pUserId, int pGenreId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pExpArtsRegistered = context.sp_User_ExpArtsRegister(Guid.Parse(pUserId), pGenreId).FirstOrDefault();
+                return pExpArtsRegistered;
+            }
+        }
+
+        public sp_User_MusicRegister_Result SetUserLikesMusic(string pUserId, int pGenreId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pMusicRegistered = context.sp_User_MusicRegister(Guid.Parse(pUserId), pGenreId).FirstOrDefault();
+                return pMusicRegistered;
+            }
+        }
+
+        public sp_User_SportRegister_Result SetUserLikesSport(string pUserId, int pGenreId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pSportRegistered = context.sp_User_SportRegister(Guid.Parse(pUserId), pGenreId).FirstOrDefault();
+                return pSportRegistered;
+            }
+        }
         #endregion
 
         #region User Likes Management (IA)
+        //public List<sp_>
 
         #endregion
     }

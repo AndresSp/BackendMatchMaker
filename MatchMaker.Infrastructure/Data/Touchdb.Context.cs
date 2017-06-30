@@ -361,5 +361,50 @@ namespace MatchMaker.Infrastructure.Data
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_SportSelect_Result>("sp_User_SportSelect", matchIdParameter);
         }
+    
+        public virtual ObjectResult<string> sp_GetUserBookLikes(Nullable<System.Guid> userId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("sp_GetUserBookLikes", userIdParameter);
+        }
+    
+        public virtual ObjectResult<string> sp_GetUserEntertainmentLikes(Nullable<System.Guid> userId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("sp_GetUserEntertainmentLikes", userIdParameter);
+        }
+    
+        public virtual ObjectResult<string> sp_GetUserExpArtsLikes(Nullable<System.Guid> userId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("sp_GetUserExpArtsLikes", userIdParameter);
+        }
+    
+        public virtual ObjectResult<string> sp_GetUserMusicLikes(Nullable<System.Guid> userId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("sp_GetUserMusicLikes", userIdParameter);
+        }
+    
+        public virtual ObjectResult<string> sp_GetUserSportLikes(Nullable<System.Guid> userId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("sp_GetUserSportLikes", userIdParameter);
+        }
     }
 }

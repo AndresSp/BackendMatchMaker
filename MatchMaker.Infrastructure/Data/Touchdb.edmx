@@ -245,7 +245,22 @@
         <Function Name="sp_FacultySelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="FacultyId" Type="int" Mode="In" />
         </Function>
+        <Function Name="sp_GetUserBookLikes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+        </Function>
+        <Function Name="sp_GetUserEntertainmentLikes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+        </Function>
+        <Function Name="sp_GetUserExpArtsLikes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+        </Function>
         <Function Name="sp_GetUserMatchs" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+        </Function>
+        <Function Name="sp_GetUserMusicLikes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+        </Function>
+        <Function Name="sp_GetUserSportLikes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
         </Function>
         <Function Name="sp_MusicSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
@@ -258,36 +273,21 @@
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
           <Parameter Name="GenreId" Type="int" Mode="In" />
         </Function>
-        <Function Name="sp_User_BooksSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="MatchId" Type="int" Mode="In" />
-        </Function>
         <Function Name="sp_User_EntertainmentRegister" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
           <Parameter Name="GenreId" Type="int" Mode="In" />
-        </Function>
-        <Function Name="sp_User_EntertainmentSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="MatchId" Type="int" Mode="In" />
         </Function>
         <Function Name="sp_User_ExpArtsRegister" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
           <Parameter Name="GenreId" Type="int" Mode="In" />
         </Function>
-        <Function Name="sp_User_ExpArtsSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="MatchId" Type="int" Mode="In" />
-        </Function>
         <Function Name="sp_User_MusicRegister" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
           <Parameter Name="GenreId" Type="int" Mode="In" />
         </Function>
-        <Function Name="sp_User_MusicSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="MatchId" Type="int" Mode="In" />
-        </Function>
         <Function Name="sp_User_SportRegister" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
           <Parameter Name="GenreId" Type="int" Mode="In" />
-        </Function>
-        <Function Name="sp_User_SportSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="MatchId" Type="int" Mode="In" />
         </Function>
         <Function Name="sp_UserDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
@@ -799,6 +799,21 @@
           <FunctionImport Name="sp_User_SportSelect" ReturnType="Collection(touchdbModel.sp_User_SportSelect_Result)">
             <Parameter Name="MatchId" Mode="In" Type="Int32" />
           </FunctionImport>
+          <FunctionImport Name="sp_GetUserBookLikes" ReturnType="Collection(String)">
+            <Parameter Name="UserId" Mode="In" Type="Guid" />
+          </FunctionImport>
+          <FunctionImport Name="sp_GetUserEntertainmentLikes" ReturnType="Collection(String)">
+            <Parameter Name="UserId" Mode="In" Type="Guid" />
+          </FunctionImport>
+          <FunctionImport Name="sp_GetUserExpArtsLikes" ReturnType="Collection(String)">
+            <Parameter Name="UserId" Mode="In" Type="Guid" />
+          </FunctionImport>
+          <FunctionImport Name="sp_GetUserMusicLikes" ReturnType="Collection(String)">
+            <Parameter Name="UserId" Mode="In" Type="Guid" />
+          </FunctionImport>
+          <FunctionImport Name="sp_GetUserSportLikes" ReturnType="Collection(String)">
+            <Parameter Name="UserId" Mode="In" Type="Guid" />
+          </FunctionImport>
         </EntityContainer>
         <ComplexType Name="sp_BooksSelect_Result">
           <Property Type="Int32" Name="GenreId" Nullable="false" />
@@ -1192,27 +1207,9 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="sp_User_BooksSelect" FunctionName="touchdbModel.Store.sp_User_BooksSelect">
-            <ResultMapping>
-              <ComplexTypeMapping TypeName="touchdbModel.sp_User_BooksSelect_Result">
-                <ScalarProperty Name="MatchId" ColumnName="MatchId" />
-                <ScalarProperty Name="UserId" ColumnName="UserId" />
-                <ScalarProperty Name="GenreId" ColumnName="GenreId" />
-              </ComplexTypeMapping>
-            </ResultMapping>
-          </FunctionImportMapping>
           <FunctionImportMapping FunctionImportName="sp_User_EntertainmentRegister" FunctionName="touchdbModel.Store.sp_User_EntertainmentRegister">
             <ResultMapping>
               <ComplexTypeMapping TypeName="touchdbModel.sp_User_EntertainmentRegister_Result">
-                <ScalarProperty Name="MatchId" ColumnName="MatchId" />
-                <ScalarProperty Name="UserId" ColumnName="UserId" />
-                <ScalarProperty Name="GenreId" ColumnName="GenreId" />
-              </ComplexTypeMapping>
-            </ResultMapping>
-          </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="sp_User_EntertainmentSelect" FunctionName="touchdbModel.Store.sp_User_EntertainmentSelect">
-            <ResultMapping>
-              <ComplexTypeMapping TypeName="touchdbModel.sp_User_EntertainmentSelect_Result">
                 <ScalarProperty Name="MatchId" ColumnName="MatchId" />
                 <ScalarProperty Name="UserId" ColumnName="UserId" />
                 <ScalarProperty Name="GenreId" ColumnName="GenreId" />
@@ -1228,27 +1225,9 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="sp_User_ExpArtsSelect" FunctionName="touchdbModel.Store.sp_User_ExpArtsSelect">
-            <ResultMapping>
-              <ComplexTypeMapping TypeName="touchdbModel.sp_User_ExpArtsSelect_Result">
-                <ScalarProperty Name="MatchId" ColumnName="MatchId" />
-                <ScalarProperty Name="UserId" ColumnName="UserId" />
-                <ScalarProperty Name="GenreId" ColumnName="GenreId" />
-              </ComplexTypeMapping>
-            </ResultMapping>
-          </FunctionImportMapping>
           <FunctionImportMapping FunctionImportName="sp_User_MusicRegister" FunctionName="touchdbModel.Store.sp_User_MusicRegister">
             <ResultMapping>
               <ComplexTypeMapping TypeName="touchdbModel.sp_User_MusicRegister_Result">
-                <ScalarProperty Name="MatchId" ColumnName="MatchId" />
-                <ScalarProperty Name="UserId" ColumnName="UserId" />
-                <ScalarProperty Name="GenreId" ColumnName="GenreId" />
-              </ComplexTypeMapping>
-            </ResultMapping>
-          </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="sp_User_MusicSelect" FunctionName="touchdbModel.Store.sp_User_MusicSelect">
-            <ResultMapping>
-              <ComplexTypeMapping TypeName="touchdbModel.sp_User_MusicSelect_Result">
                 <ScalarProperty Name="MatchId" ColumnName="MatchId" />
                 <ScalarProperty Name="UserId" ColumnName="UserId" />
                 <ScalarProperty Name="GenreId" ColumnName="GenreId" />
@@ -1264,15 +1243,11 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="sp_User_SportSelect" FunctionName="touchdbModel.Store.sp_User_SportSelect">
-            <ResultMapping>
-              <ComplexTypeMapping TypeName="touchdbModel.sp_User_SportSelect_Result">
-                <ScalarProperty Name="MatchId" ColumnName="MatchId" />
-                <ScalarProperty Name="UserId" ColumnName="UserId" />
-                <ScalarProperty Name="GenreId" ColumnName="GenreId" />
-              </ComplexTypeMapping>
-            </ResultMapping>
-          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_GetUserBookLikes" FunctionName="touchdbModel.Store.sp_GetUserBookLikes" />
+          <FunctionImportMapping FunctionImportName="sp_GetUserEntertainmentLikes" FunctionName="touchdbModel.Store.sp_GetUserEntertainmentLikes" />
+          <FunctionImportMapping FunctionImportName="sp_GetUserExpArtsLikes" FunctionName="touchdbModel.Store.sp_GetUserExpArtsLikes" />
+          <FunctionImportMapping FunctionImportName="sp_GetUserMusicLikes" FunctionName="touchdbModel.Store.sp_GetUserMusicLikes" />
+          <FunctionImportMapping FunctionImportName="sp_GetUserSportLikes" FunctionName="touchdbModel.Store.sp_GetUserSportLikes" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
