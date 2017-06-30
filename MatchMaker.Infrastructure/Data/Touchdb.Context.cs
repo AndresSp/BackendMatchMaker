@@ -12,10 +12,10 @@ namespace MatchMaker.Infrastructure.Data
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using MatchMaker.Core.Model;
     using System.Data.Entity.Core.Objects;
     using System.Linq;
-    using MatchMaker.Core.Model;
-
+    
     public partial class touchdbEntities : DbContext
     {
         public touchdbEntities()
@@ -265,15 +265,6 @@ namespace MatchMaker.Infrastructure.Data
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_upgraddiagrams");
         }
     
-        public virtual ObjectResult<sp_User_BooksSelect_Result> sp_User_BooksSelect(Nullable<int> matchId)
-        {
-            var matchIdParameter = matchId.HasValue ?
-                new ObjectParameter("MatchId", matchId) :
-                new ObjectParameter("MatchId", typeof(int));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_BooksSelect_Result>("sp_User_BooksSelect", matchIdParameter);
-        }
-    
         public virtual ObjectResult<sp_User_EntertainmentRegister_Result> sp_User_EntertainmentRegister(Nullable<System.Guid> userId, Nullable<int> genreId)
         {
             var userIdParameter = userId.HasValue ?
@@ -285,15 +276,6 @@ namespace MatchMaker.Infrastructure.Data
                 new ObjectParameter("GenreId", typeof(int));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_EntertainmentRegister_Result>("sp_User_EntertainmentRegister", userIdParameter, genreIdParameter);
-        }
-    
-        public virtual ObjectResult<sp_User_EntertainmentSelect_Result> sp_User_EntertainmentSelect(Nullable<int> matchId)
-        {
-            var matchIdParameter = matchId.HasValue ?
-                new ObjectParameter("MatchId", matchId) :
-                new ObjectParameter("MatchId", typeof(int));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_EntertainmentSelect_Result>("sp_User_EntertainmentSelect", matchIdParameter);
         }
     
         public virtual ObjectResult<sp_User_ExpArtsRegister_Result> sp_User_ExpArtsRegister(Nullable<System.Guid> userId, Nullable<int> genreId)
@@ -309,15 +291,6 @@ namespace MatchMaker.Infrastructure.Data
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_ExpArtsRegister_Result>("sp_User_ExpArtsRegister", userIdParameter, genreIdParameter);
         }
     
-        public virtual ObjectResult<sp_User_ExpArtsSelect_Result> sp_User_ExpArtsSelect(Nullable<int> matchId)
-        {
-            var matchIdParameter = matchId.HasValue ?
-                new ObjectParameter("MatchId", matchId) :
-                new ObjectParameter("MatchId", typeof(int));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_ExpArtsSelect_Result>("sp_User_ExpArtsSelect", matchIdParameter);
-        }
-    
         public virtual ObjectResult<sp_User_MusicRegister_Result> sp_User_MusicRegister(Nullable<System.Guid> userId, Nullable<int> genreId)
         {
             var userIdParameter = userId.HasValue ?
@@ -331,15 +304,6 @@ namespace MatchMaker.Infrastructure.Data
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_MusicRegister_Result>("sp_User_MusicRegister", userIdParameter, genreIdParameter);
         }
     
-        public virtual ObjectResult<sp_User_MusicSelect_Result> sp_User_MusicSelect(Nullable<int> matchId)
-        {
-            var matchIdParameter = matchId.HasValue ?
-                new ObjectParameter("MatchId", matchId) :
-                new ObjectParameter("MatchId", typeof(int));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_MusicSelect_Result>("sp_User_MusicSelect", matchIdParameter);
-        }
-    
         public virtual ObjectResult<sp_User_SportRegister_Result> sp_User_SportRegister(Nullable<System.Guid> userId, Nullable<int> genreId)
         {
             var userIdParameter = userId.HasValue ?
@@ -351,15 +315,6 @@ namespace MatchMaker.Infrastructure.Data
                 new ObjectParameter("GenreId", typeof(int));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_SportRegister_Result>("sp_User_SportRegister", userIdParameter, genreIdParameter);
-        }
-    
-        public virtual ObjectResult<sp_User_SportSelect_Result> sp_User_SportSelect(Nullable<int> matchId)
-        {
-            var matchIdParameter = matchId.HasValue ?
-                new ObjectParameter("MatchId", matchId) :
-                new ObjectParameter("MatchId", typeof(int));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_SportSelect_Result>("sp_User_SportSelect", matchIdParameter);
         }
     
         public virtual ObjectResult<string> sp_GetUserBookLikes(Nullable<System.Guid> userId)
