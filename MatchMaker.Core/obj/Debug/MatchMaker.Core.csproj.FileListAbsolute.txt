@@ -9,7 +9,6 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\bin\Debug\EntityFrame
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\bin\Debug\Newtonsoft.Json.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.csprojResolveAssemblyReference.cache
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\MatchMaker.Core.dll.config
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\MatchMaker.Core.dll
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\MatchMaker.Core.pdb

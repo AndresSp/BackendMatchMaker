@@ -91,7 +91,6 @@ C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.WebPage
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.csprojResolveAssemblyReference.cache
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.dll
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.dll.config
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.pdb
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\obj\Debug\MatchMaker.dll
