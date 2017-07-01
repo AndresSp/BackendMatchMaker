@@ -34,7 +34,7 @@ namespace MatchMaker.Core.Interfaces.Repository
 
         #endregion
 
-        #region
+        #region User Likes Management
         List<sp_GetUserBookLikes_Result> GetUserBookLikes(string pUserId);
         List<sp_GetUserEntertainmentLikes_Result> GetUserEntertainmentLikes(string pUserId);
         List<sp_GetUserExpArtsLikes_Result> GetUserExpArtsLikes(string pUserId);
