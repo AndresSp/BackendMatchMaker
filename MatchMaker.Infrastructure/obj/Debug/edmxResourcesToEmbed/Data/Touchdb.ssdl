@@ -309,6 +309,10 @@
   <Function Name="sp_UserSelectById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
   </Function>
+  <Function Name="sp_UserUpdatePhoto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="ImageUrl" Type="nvarchar" Mode="In" />
+  </Function>
   <Function Name="sp_UserUpdateProfile" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
     <Parameter Name="FirstName" Type="nvarchar" Mode="In" />

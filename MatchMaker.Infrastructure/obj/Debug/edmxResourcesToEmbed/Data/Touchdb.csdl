@@ -461,6 +461,10 @@
       <Parameter Name="Faculty" Mode="In" Type="Int32" />
       <Parameter Name="ImageURL" Mode="In" Type="String" />
     </FunctionImport>
+    <FunctionImport Name="sp_UserUpdatePhoto" ReturnType="Collection(touchdbModel.sp_UserUpdatePhoto_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Guid" />
+      <Parameter Name="ImageUrl" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
   <ComplexType Name="sp_BooksSelect_Result">
     <Property Type="Int32" Name="GenreId" Nullable="false" />
@@ -639,5 +643,8 @@
     <Property Type="String" Name="Email" Nullable="true" MaxLength="100" />
     <Property Type="Int32" Name="Faculty" Nullable="true" />
     <Property Type="String" Name="ImageURL" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_UserUpdatePhoto_Result">
+    <Property Type="String" Name="ImageUrl" Nullable="true" MaxLength="100" />
   </ComplexType>
 </Schema>

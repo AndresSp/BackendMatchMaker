@@ -114,6 +114,15 @@ namespace MatchMaker.Infrastructure.Repository
             }
         }
 
+        public sp_UserUpdatePhoto_Result UpdateUserPhoto(string pUserId, string pImageUrl)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pUserPhoto = context.sp_UserUpdatePhoto(Guid.Parse(pUserId), pImageUrl).FirstOrDefault();
+                return pUserPhoto;
+            }
+        }
+
         public void DeleteUser(string pUserId)
         {
             using (touchdbEntities context = new touchdbEntities())

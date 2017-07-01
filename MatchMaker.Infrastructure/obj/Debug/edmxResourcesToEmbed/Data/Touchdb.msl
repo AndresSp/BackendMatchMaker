@@ -356,5 +356,12 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UserUpdatePhoto" FunctionName="touchdbModel.Store.sp_UserUpdatePhoto">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_UserUpdatePhoto_Result">
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

@@ -441,5 +441,18 @@ namespace MatchMaker.Infrastructure.Data
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserUpdateProfile_Result>("sp_UserUpdateProfile", userIdParameter, firstNameParameter, lastNameParameter, phoneNumberParameter, nacDateParameter, genderParameter, genderPrefParameter, emailParameter, facultyParameter, imageURLParameter);
         }
+    
+        public virtual ObjectResult<sp_UserUpdatePhoto_Result> sp_UserUpdatePhoto(Nullable<System.Guid> userId, string imageUrl)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            var imageUrlParameter = imageUrl != null ?
+                new ObjectParameter("ImageUrl", imageUrl) :
+                new ObjectParameter("ImageUrl", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserUpdatePhoto_Result>("sp_UserUpdatePhoto", userIdParameter, imageUrlParameter);
+        }
     }
 }
