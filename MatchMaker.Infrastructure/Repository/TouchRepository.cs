@@ -160,7 +160,50 @@ namespace MatchMaker.Infrastructure.Repository
         #endregion
 
         #region User Likes Management (IA)
+        public List<sp_GetUserBookLikes_Result> GetUserBookLikes(string pUserId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pUserBookLikes = context.sp_GetUserBookLikes(Guid.Parse(pUserId)).ToList();
+                return pUserBookLikes;
+            }
+        }
 
+        public List<sp_GetUserEntertainmentLikes_Result> GetUserEntertainmentLikes(string pUserId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pUserEntertainmentLikes = context.sp_GetUserEntertainmentLikes(Guid.Parse(pUserId)).ToList();
+                return pUserEntertainmentLikes;
+            }
+        }
+
+        public List<sp_GetUserExpArtsLikes_Result> GetUserExpArtsLikes(string pUserId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pUserGetUserExpArtsLikes = context.sp_GetUserExpArtsLikes(Guid.Parse(pUserId)).ToList();
+                return pUserGetUserExpArtsLikes;
+            }
+        }
+
+        public List<sp_GetUserMusicLikes_Result> GetUserMusicLikes(string pUserId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pUserGetUserMusicLikes = context.sp_GetUserMusicLikes(Guid.Parse(pUserId)).ToList();
+                return pUserGetUserMusicLikes;
+            }
+        }
+
+        public List<sp_GetUserSportLikes_Result> GetUserSportLikes(string pUserId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pUserGetUserSportLikes = context.sp_GetUserSportLikes(Guid.Parse(pUserId)).ToList();
+                return pUserGetUserSportLikes;
+            }
+        }
         #endregion
     }
 }
