@@ -406,36 +406,21 @@
       <Parameter Name="new_diagramname" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="sp_upgraddiagrams" />
-    <FunctionImport Name="sp_User_BooksSelect" ReturnType="Collection(touchdbModel.sp_User_BooksSelect_Result)">
-      <Parameter Name="MatchId" Mode="In" Type="Int32" />
-    </FunctionImport>
     <FunctionImport Name="sp_User_EntertainmentRegister" ReturnType="Collection(touchdbModel.sp_User_EntertainmentRegister_Result)">
       <Parameter Name="UserId" Mode="In" Type="Guid" />
       <Parameter Name="GenreId" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="sp_User_EntertainmentSelect" ReturnType="Collection(touchdbModel.sp_User_EntertainmentSelect_Result)">
-      <Parameter Name="MatchId" Mode="In" Type="Int32" />
     </FunctionImport>
     <FunctionImport Name="sp_User_ExpArtsRegister" ReturnType="Collection(touchdbModel.sp_User_ExpArtsRegister_Result)">
       <Parameter Name="UserId" Mode="In" Type="Guid" />
       <Parameter Name="GenreId" Mode="In" Type="Int32" />
     </FunctionImport>
-    <FunctionImport Name="sp_User_ExpArtsSelect" ReturnType="Collection(touchdbModel.sp_User_ExpArtsSelect_Result)">
-      <Parameter Name="MatchId" Mode="In" Type="Int32" />
-    </FunctionImport>
     <FunctionImport Name="sp_User_MusicRegister" ReturnType="Collection(touchdbModel.sp_User_MusicRegister_Result)">
       <Parameter Name="UserId" Mode="In" Type="Guid" />
       <Parameter Name="GenreId" Mode="In" Type="Int32" />
     </FunctionImport>
-    <FunctionImport Name="sp_User_MusicSelect" ReturnType="Collection(touchdbModel.sp_User_MusicSelect_Result)">
-      <Parameter Name="MatchId" Mode="In" Type="Int32" />
-    </FunctionImport>
     <FunctionImport Name="sp_User_SportRegister" ReturnType="Collection(touchdbModel.sp_User_SportRegister_Result)">
       <Parameter Name="UserId" Mode="In" Type="Guid" />
       <Parameter Name="GenreId" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="sp_User_SportSelect" ReturnType="Collection(touchdbModel.sp_User_SportSelect_Result)">
-      <Parameter Name="MatchId" Mode="In" Type="Int32" />
     </FunctionImport>
     <FunctionImport Name="sp_GetUserBookLikes" ReturnType="Collection(String)">
       <Parameter Name="UserId" Mode="In" Type="Guid" />

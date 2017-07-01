@@ -43,7 +43,6 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.dll.config
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll.config
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.pdb
