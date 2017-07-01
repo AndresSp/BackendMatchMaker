@@ -56,6 +56,7 @@
           <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
           <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+          <Property Name="PhoneNumber" Type="nvarchar" MaxLength="15" />
           <Property Name="NacDate" Type="date" />
           <Property Name="Gender" Type="char" MaxLength="2" />
           <Property Name="GenderPref" Type="char" MaxLength="2" />
@@ -313,6 +314,18 @@
         <Function Name="sp_UserSelectById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
         </Function>
+        <Function Name="sp_UserUpdateProfile" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+          <Parameter Name="FirstName" Type="nvarchar" Mode="In" />
+          <Parameter Name="LastName" Type="nvarchar" Mode="In" />
+          <Parameter Name="PhoneNumber" Type="nvarchar" Mode="In" />
+          <Parameter Name="NacDate" Type="date" Mode="In" />
+          <Parameter Name="Gender" Type="char" Mode="In" />
+          <Parameter Name="GenderPref" Type="char" Mode="In" />
+          <Parameter Name="Email" Type="nvarchar" Mode="In" />
+          <Parameter Name="Faculty" Type="int" Mode="In" />
+          <Parameter Name="ImageURL" Type="nvarchar" Mode="In" />
+        </Function>
         <EntityContainer Name="touchdbModelStoreContainer">
           <EntitySet Name="Books" EntityType="Self.Books" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Entertainment" EntityType="Self.Entertainment" Schema="dbo" store:Type="Tables" />
@@ -443,6 +456,7 @@
           <NavigationProperty Name="User_Sport" Relationship="Self.FK__User_Spor__UserI__4BAC3F29" FromRole="User" ToRole="User_Sport" />
           <NavigationProperty Name="UserMatches" Relationship="Self.FK_UserMatch_User" FromRole="User" ToRole="UserMatch" />
           <NavigationProperty Name="UserMatches1" Relationship="Self.FK_UserMatch_User1" FromRole="User" ToRole="UserMatch" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="User_Books">
           <Key>
@@ -819,7 +833,19 @@
             <Parameter Name="weight" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="sp_UserSelectByEmail" ReturnType="Collection(touchdbModel.sp_UserSelectByEmail_Result)">
+          <Parameter Name="Email" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_UserUpdateProfile" ReturnType="Collection(touchdbModel.sp_UserUpdateProfile_Result)">
+            <Parameter Name="UserId" Mode="In" Type="Guid" />
+            <Parameter Name="FirstName" Mode="In" Type="String" />
+            <Parameter Name="LastName" Mode="In" Type="String" />
+            <Parameter Name="PhoneNumber" Mode="In" Type="String" />
+            <Parameter Name="NacDate" Mode="In" Type="DateTime" />
+            <Parameter Name="Gender" Mode="In" Type="String" />
+            <Parameter Name="GenderPref" Mode="In" Type="String" />
             <Parameter Name="Email" Mode="In" Type="String" />
+            <Parameter Name="Faculty" Mode="In" Type="Int32" />
+            <Parameter Name="ImageURL" Mode="In" Type="String" />
           </FunctionImport>
         </EntityContainer>
         <ComplexType Name="sp_BooksSelect_Result">
@@ -989,6 +1015,17 @@
           <Property Type="Int32" Name="TechW" Nullable="true" />
           <Property Type="String" Name="ImageURL" Nullable="true" MaxLength="100" />
         </ComplexType>
+        <ComplexType Name="sp_UserUpdateProfile_Result">
+          <Property Type="Guid" Name="UserId" Nullable="false" />
+          <Property Type="String" Name="FirstName" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+          <Property Type="DateTime" Name="NacDate" Nullable="true" />
+          <Property Type="String" Name="Gender" Nullable="true" MaxLength="2" />
+          <Property Type="String" Name="GenderPref" Nullable="true" MaxLength="2" />
+          <Property Type="String" Name="Email" Nullable="true" MaxLength="100" />
+          <Property Type="Int32" Name="Faculty" Nullable="true" />
+          <Property Type="String" Name="ImageURL" Nullable="true" MaxLength="100" />
+        </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -1046,6 +1083,7 @@
           <EntitySetMapping Name="Users">
             <EntityTypeMapping TypeName="touchdbModel.User">
               <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
                 <ScalarProperty Name="UserId" ColumnName="UserId" />
                 <ScalarProperty Name="UserName" ColumnName="UserName" />
                 <ScalarProperty Name="Password" ColumnName="Password" />
@@ -1330,6 +1368,21 @@
                 <ScalarProperty Name="Faculty" ColumnName="Faculty" />
                 <ScalarProperty Name="TravelW" ColumnName="TravelW" />
                 <ScalarProperty Name="TechW" ColumnName="TechW" />
+                <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_UserUpdateProfile" FunctionName="touchdbModel.Store.sp_UserUpdateProfile">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="touchdbModel.sp_UserUpdateProfile_Result">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="NacDate" ColumnName="NacDate" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Faculty" ColumnName="Faculty" />
                 <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
               </ComplexTypeMapping>
             </ResultMapping>

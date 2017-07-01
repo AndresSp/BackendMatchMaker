@@ -124,6 +124,41 @@ namespace MatchMaker.Controllers
             }
         }
 
+        [Route("wsupdateuserprofile")]
+        [HttpPost]
+        public HttpResponseMessage UpdateUserProfile(string pUserId, string pFirstName, string pLastName, string pPhoneNumber, DateTime pNacDate, char pGender, char pGenderPref, string pEmail, int pFaculty, string pImageUrl)
+        {
+            try
+            {
+                ResultResponseModel result = new ResultResponseModel();
+                sp_UserUpdateProfile_Result content = _db.UpdateUserProfile(pUserId, pFirstName, pLastName, pPhoneNumber, pNacDate, pGender, pGenderPref, pEmail, pFaculty, pImageUrl);
+                result.Result = content;
+                result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            catch (ArgumentNullException)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 400, ErrorMessage = HttpStatusCode.BadRequest };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (EntityCommandExecutionException e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (Exception e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 406, ErrorMessage = e.Message };
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, objresult);
+                throw new HttpResponseException(HttpStatusCode.NotAcceptable);
+            }
+        }
+
         [Route("wsgetusermatch")]
         [HttpPost]
         public HttpResponseMessage GetUserMatch(string pUserId)
@@ -410,6 +445,47 @@ namespace MatchMaker.Controllers
             {
                 ResultResponseModel result = new ResultResponseModel();
                 _db.SetUserWeightTravel(pUserId, pWeigth);
+                result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            catch (ArgumentNullException)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 400, ErrorMessage = HttpStatusCode.BadRequest };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (EntityCommandExecutionException e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (Exception e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 406, ErrorMessage = e.Message };
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, objresult);
+                throw new HttpResponseException(HttpStatusCode.NotAcceptable);
+            }
+        }
+
+        [Route("wsgetuserlikes")]
+        [HttpPost]
+        public HttpResponseMessage GetUserLikes(string pUserId)
+        {
+            try
+            {
+                ResultResponseModel result = new ResultResponseModel();
+                object content = new object[] {
+                    _db.GetUserBookLikes(pUserId), 
+                    _db.GetUserMusicLikes(pUserId),
+                    _db.GetUserSportLikes(pUserId),
+                    _db.GetUserEntertainmentLikes(pUserId),
+                    _db.GetUserExpArtsLikes(pUserId)
+                };
+                result.Result = content;
                 result.Error = new { Error = 200, ErrorMessage = "Ok" };
                 return Request.CreateResponse(HttpStatusCode.OK, result);
             }

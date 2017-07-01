@@ -396,5 +396,50 @@ namespace MatchMaker.Infrastructure.Data
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserSelectByEmail_Result>("sp_UserSelectByEmail", emailParameter);
         }
+    
+        public virtual ObjectResult<sp_UserUpdateProfile_Result> sp_UserUpdateProfile(Nullable<System.Guid> userId, string firstName, string lastName, string phoneNumber, Nullable<System.DateTime> nacDate, string gender, string genderPref, string email, Nullable<int> faculty, string imageURL)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            var firstNameParameter = firstName != null ?
+                new ObjectParameter("FirstName", firstName) :
+                new ObjectParameter("FirstName", typeof(string));
+    
+            var lastNameParameter = lastName != null ?
+                new ObjectParameter("LastName", lastName) :
+                new ObjectParameter("LastName", typeof(string));
+    
+            var phoneNumberParameter = phoneNumber != null ?
+                new ObjectParameter("PhoneNumber", phoneNumber) :
+                new ObjectParameter("PhoneNumber", typeof(string));
+    
+            var nacDateParameter = nacDate.HasValue ?
+                new ObjectParameter("NacDate", nacDate) :
+                new ObjectParameter("NacDate", typeof(System.DateTime));
+    
+            var genderParameter = gender != null ?
+                new ObjectParameter("Gender", gender) :
+                new ObjectParameter("Gender", typeof(string));
+    
+            var genderPrefParameter = genderPref != null ?
+                new ObjectParameter("GenderPref", genderPref) :
+                new ObjectParameter("GenderPref", typeof(string));
+    
+            var emailParameter = email != null ?
+                new ObjectParameter("Email", email) :
+                new ObjectParameter("Email", typeof(string));
+    
+            var facultyParameter = faculty.HasValue ?
+                new ObjectParameter("Faculty", faculty) :
+                new ObjectParameter("Faculty", typeof(int));
+    
+            var imageURLParameter = imageURL != null ?
+                new ObjectParameter("ImageURL", imageURL) :
+                new ObjectParameter("ImageURL", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserUpdateProfile_Result>("sp_UserUpdateProfile", userIdParameter, firstNameParameter, lastNameParameter, phoneNumberParameter, nacDateParameter, genderParameter, genderPrefParameter, emailParameter, facultyParameter, imageURLParameter);
+        }
     }
 }

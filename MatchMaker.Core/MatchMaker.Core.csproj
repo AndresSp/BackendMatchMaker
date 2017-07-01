@@ -126,6 +126,9 @@
     <Compile Include="Model\sp_UserSelect_Result.cs">
       <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\sp_UserUpdateProfile_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\sp_User_BooksRegister_Result.cs">
       <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>

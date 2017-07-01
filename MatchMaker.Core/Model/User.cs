@@ -38,6 +38,7 @@ namespace MatchMaker.Core.Model
         public Nullable<int> TravelW { get; set; }
         public Nullable<int> TechW { get; set; }
         public string ImageURL { get; set; }
+        public string PhoneNumber { get; set; }
     
         public virtual ICollection<User_Books> User_Books { get; set; }
         public virtual ICollection<User_Entertainment> User_Entertainment { get; set; }

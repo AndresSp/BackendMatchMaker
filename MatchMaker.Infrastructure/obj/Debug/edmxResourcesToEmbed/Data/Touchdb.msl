@@ -52,6 +52,7 @@
     <EntitySetMapping Name="Users">
       <EntityTypeMapping TypeName="touchdbModel.User">
         <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
           <ScalarProperty Name="UserId" ColumnName="UserId" />
           <ScalarProperty Name="UserName" ColumnName="UserName" />
           <ScalarProperty Name="Password" ColumnName="Password" />
@@ -336,6 +337,21 @@
           <ScalarProperty Name="Faculty" ColumnName="Faculty" />
           <ScalarProperty Name="TravelW" ColumnName="TravelW" />
           <ScalarProperty Name="TechW" ColumnName="TechW" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UserUpdateProfile" FunctionName="touchdbModel.Store.sp_UserUpdateProfile">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_UserUpdateProfile_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="NacDate" ColumnName="NacDate" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Faculty" ColumnName="Faculty" />
           <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
         </ComplexTypeMapping>
       </ResultMapping>

@@ -96,6 +96,15 @@ namespace MatchMaker.Infrastructure.Repository
             }
         }
 
+        public sp_UserUpdateProfile_Result UpdateUserProfile(string pUserId, string pFirstName, string pLastName, string pPhoneNumber, DateTime pNacDate, char pGender, char pGenderPref, string pEmail, int pFaculty, string pImageUrl)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pUserProfile = context.sp_UserUpdateProfile(Guid.Parse(pUserId), pFirstName, pLastName, pPhoneNumber, pNacDate, pGender.ToString(), pGenderPref.ToString(), pEmail, pFaculty, pImageUrl).FirstOrDefault();
+                return pUserProfile;
+            }
+        }
+
         public sp_UserRegister_Result RegisterUser(string pEmail, string pPassword, string pFirstName, string pLastName)
         {
             using (touchdbEntities context = new touchdbEntities())

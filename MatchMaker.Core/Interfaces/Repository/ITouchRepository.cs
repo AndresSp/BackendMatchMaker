@@ -22,6 +22,7 @@ namespace MatchMaker.Core.Interfaces.Repository
         #region User Data Management
         List<sp_GetUserMatchs_Result> GetUserMatch(string pUserId);
         sp_UserSelectById_Result GetUserProfile(string pUserId);
+        sp_UserUpdateProfile_Result UpdateUserProfile(string pUserId, string pFirstName, string pLastName, string pPhoneNumber, DateTime pNacDate, char pGender, char pGenderPref, string pEmail, int pFaculty, string pImageUrl);
         sp_UserRegister_Result RegisterUser(string pEmail, string pPassword, string pFirstName, string pLastName);
         void DeleteUser(string pUserId);
         sp_User_BooksRegister_Result SetUserLikesBooks(string pUserId, int pGenreId);
