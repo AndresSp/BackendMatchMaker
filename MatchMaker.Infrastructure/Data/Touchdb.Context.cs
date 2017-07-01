@@ -361,5 +361,40 @@ namespace MatchMaker.Infrastructure.Data
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_GetUserSportLikes_Result>("sp_GetUserSportLikes", userIdParameter);
         }
+    
+        public virtual int sp_User_TechRegister(Nullable<System.Guid> userId, Nullable<int> weight)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            var weightParameter = weight.HasValue ?
+                new ObjectParameter("weight", weight) :
+                new ObjectParameter("weight", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_User_TechRegister", userIdParameter, weightParameter);
+        }
+    
+        public virtual int sp_User_TravelRegister(Nullable<System.Guid> userId, Nullable<int> weight)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            var weightParameter = weight.HasValue ?
+                new ObjectParameter("weight", weight) :
+                new ObjectParameter("weight", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_User_TravelRegister", userIdParameter, weightParameter);
+        }
+    
+        public virtual ObjectResult<sp_UserSelectByEmail_Result> sp_UserSelectByEmail(string email)
+        {
+            var emailParameter = email != null ?
+                new ObjectParameter("Email", email) :
+                new ObjectParameter("Email", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserSelectByEmail_Result>("sp_UserSelectByEmail", emailParameter);
+        }
     }
 }

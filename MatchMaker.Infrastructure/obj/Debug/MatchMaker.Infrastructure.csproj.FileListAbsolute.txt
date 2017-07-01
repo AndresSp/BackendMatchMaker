@@ -12,7 +12,6 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\M
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\Newtonsoft.Json.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Core.pdb
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\Newtonsoft.Json.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Core.dll.config
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Infrastructure.dll.config
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Infrastructure.dll
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Infrastructure.pdb

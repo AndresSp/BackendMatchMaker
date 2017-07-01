@@ -320,5 +320,25 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_TechRegister" FunctionName="touchdbModel.Store.sp_User_TechRegister" />
+    <FunctionImportMapping FunctionImportName="sp_User_TravelRegister" FunctionName="touchdbModel.Store.sp_User_TravelRegister" />
+    <FunctionImportMapping FunctionImportName="sp_UserSelectByEmail" FunctionName="touchdbModel.Store.sp_UserSelectByEmail">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_UserSelectByEmail_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="NacDate" ColumnName="NacDate" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Faculty" ColumnName="Faculty" />
+          <ScalarProperty Name="TravelW" ColumnName="TravelW" />
+          <ScalarProperty Name="TechW" ColumnName="TechW" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

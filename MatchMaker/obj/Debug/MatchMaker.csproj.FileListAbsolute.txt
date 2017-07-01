@@ -11,7 +11,6 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Http.WebHos
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\EntityFramework.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Core.pdb
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.dll.config
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Net.Http.Formatting.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Http.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Http.WebHost.xml
@@ -39,8 +38,6 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.xm
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.Deployment.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.Razor.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\EntityFramework.SqlServer.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Core.dll.config
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.dll.config
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\EntityFramework.SqlServer.xml
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.dll.config
 C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.dll
@@ -144,3 +141,4 @@ C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.Web
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.csprojResolveAssemblyReference.cache
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.dll
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.dll.config
