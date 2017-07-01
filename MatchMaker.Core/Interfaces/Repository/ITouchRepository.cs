@@ -29,6 +29,9 @@ namespace MatchMaker.Core.Interfaces.Repository
         sp_User_ExpArtsRegister_Result SetUserLikesExpArts(string pUserId, int pGenreId);
         sp_User_MusicRegister_Result SetUserLikesMusic(string pUserId, int pGenreId);
         sp_User_SportRegister_Result SetUserLikesSport(string pUserId, int pGenreId);
+        void SetUserWeightTravel(string pUserId, int pWeight);
+        void SetUserWeightTech(string pUserId, int pWeight);
+        sp_UserSelectByEmail_Result GetUserByEmail(string pEmail);
         //sp for comparing passwords
 
 

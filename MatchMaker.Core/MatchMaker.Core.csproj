@@ -117,6 +117,9 @@
     <Compile Include="Model\sp_UserRegister_Result.cs">
       <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\sp_UserSelectByEmail_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\sp_UserSelectById_Result.cs">
       <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>

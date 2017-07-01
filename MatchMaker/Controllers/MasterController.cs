@@ -57,7 +57,6 @@ namespace MatchMaker.Controllers
         }
 
         [Route("wsgemusicmaster")]
-        [HttpGet]
         public HttpResponseMessage GetMusicGenre()
         {
             try

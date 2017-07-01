@@ -289,6 +289,14 @@
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
           <Parameter Name="GenreId" Type="int" Mode="In" />
         </Function>
+        <Function Name="sp_User_TechRegister" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+          <Parameter Name="weight" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_User_TravelRegister" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+          <Parameter Name="weight" Type="int" Mode="In" />
+        </Function>
         <Function Name="sp_UserDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
         </Function>
@@ -299,6 +307,9 @@
           <Parameter Name="LastName" Type="nvarchar" Mode="In" />
         </Function>
         <Function Name="sp_UserSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="sp_UserSelectByEmail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Email" Type="nvarchar" Mode="In" />
+        </Function>
         <Function Name="sp_UserSelectById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
         </Function>
@@ -799,6 +810,17 @@
           <FunctionImport Name="sp_GetUserSportLikes" ReturnType="Collection(touchdbModel.sp_GetUserSportLikes_Result)">
           <Parameter Name="UserId" Mode="In" Type="Guid" />
           </FunctionImport>
+          <FunctionImport Name="sp_User_TechRegister">
+            <Parameter Name="UserId" Mode="In" Type="Guid" />
+            <Parameter Name="weight" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_User_TravelRegister">
+            <Parameter Name="UserId" Mode="In" Type="Guid" />
+            <Parameter Name="weight" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_UserSelectByEmail" ReturnType="Collection(touchdbModel.sp_UserSelectByEmail_Result)">
+            <Parameter Name="Email" Mode="In" Type="String" />
+          </FunctionImport>
         </EntityContainer>
         <ComplexType Name="sp_BooksSelect_Result">
           <Property Type="Int32" Name="GenreId" Nullable="false" />
@@ -952,6 +974,20 @@
         </ComplexType>
         <ComplexType Name="sp_GetUserSportLikes_Result">
           <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="sp_UserSelectByEmail_Result">
+          <Property Type="Guid" Name="UserId" Nullable="false" />
+          <Property Type="String" Name="Password" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="FirstName" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
+          <Property Type="DateTime" Name="NacDate" Nullable="true" />
+          <Property Type="String" Name="Gender" Nullable="true" MaxLength="2" />
+          <Property Type="String" Name="GenderPref" Nullable="true" MaxLength="2" />
+          <Property Type="String" Name="Email" Nullable="true" MaxLength="100" />
+          <Property Type="Int32" Name="Faculty" Nullable="true" />
+          <Property Type="Int32" Name="TravelW" Nullable="true" />
+          <Property Type="Int32" Name="TechW" Nullable="true" />
+          <Property Type="String" Name="ImageURL" Nullable="true" MaxLength="100" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -1275,6 +1311,26 @@
             <ResultMapping>
               <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserSportLikes_Result">
                 <ScalarProperty Name="Name" ColumnName="Name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_User_TechRegister" FunctionName="touchdbModel.Store.sp_User_TechRegister" />
+          <FunctionImportMapping FunctionImportName="sp_User_TravelRegister" FunctionName="touchdbModel.Store.sp_User_TravelRegister" />
+          <FunctionImportMapping FunctionImportName="sp_UserSelectByEmail" FunctionName="touchdbModel.Store.sp_UserSelectByEmail">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="touchdbModel.sp_UserSelectByEmail_Result">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="NacDate" ColumnName="NacDate" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Faculty" ColumnName="Faculty" />
+                <ScalarProperty Name="TravelW" ColumnName="TravelW" />
+                <ScalarProperty Name="TechW" ColumnName="TechW" />
+                <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

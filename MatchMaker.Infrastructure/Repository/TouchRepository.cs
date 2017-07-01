@@ -157,6 +157,31 @@ namespace MatchMaker.Infrastructure.Repository
                 return pSportRegistered;
             }
         }
+
+        public sp_UserSelectByEmail_Result GetUserByEmail(string pEmail)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var pUser = context.sp_UserSelectByEmail(pEmail).FirstOrDefault();
+                return pUser;
+            }
+        }
+
+        public void SetUserWeightTravel(string pUserId, int pWeight)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                context.sp_User_TravelRegister(Guid.Parse(pUserId), pWeight);
+            }
+        }
+
+        public void SetUserWeightTech(string pUserId, int pWeight)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                context.sp_User_TechRegister(Guid.Parse(pUserId), pWeight);
+            }
+        }
         #endregion
 
         #region User Likes Management (IA)

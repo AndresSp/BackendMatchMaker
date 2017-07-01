@@ -54,6 +54,41 @@ namespace MatchMaker.Controllers
             }
         }
 
+        [Route("wsvalidateemail")]
+        [HttpPost]
+        public HttpResponseMessage GetUserByEmail(string pEmail)
+        {
+            try
+            {
+                ResultResponseModel result = new ResultResponseModel();
+                sp_UserSelectByEmail_Result content = _db.GetUserByEmail(pEmail);
+                result.Result = content;
+                result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            catch (ArgumentNullException)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 400, ErrorMessage = HttpStatusCode.BadRequest };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (EntityCommandExecutionException e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (Exception e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 406, ErrorMessage = e.Message };
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, objresult);
+                throw new HttpResponseException(HttpStatusCode.NotAcceptable);
+            }
+        }
+
         [Route("wsgetuserprofile")]
         [HttpPost]
         public HttpResponseMessage GetUserProfile(string pUserId)
@@ -193,6 +228,212 @@ namespace MatchMaker.Controllers
             }
         }
 
+        [Route("wssetusermusiclike")]
+        [HttpPost]
+        public HttpResponseMessage SetUserMusicLike(string pUserId, int pGenreId)
+        {
+            try
+            {
+                ResultResponseModel result = new ResultResponseModel();
+                sp_User_MusicRegister_Result content = _db.SetUserLikesMusic(pUserId, pGenreId);
+                result.Result = content;
+                result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            catch (ArgumentNullException)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 400, ErrorMessage = HttpStatusCode.BadRequest };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (EntityCommandExecutionException e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (Exception e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 406, ErrorMessage = e.Message };
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, objresult);
+                throw new HttpResponseException(HttpStatusCode.NotAcceptable);
+            }
+        }
 
+        [Route("wssetusersportlike")]
+        [HttpPost]
+        public HttpResponseMessage SetUserSportLike(string pUserId, int pGenreId)
+        {
+            try
+            {
+                ResultResponseModel result = new ResultResponseModel();
+                sp_User_SportRegister_Result content = _db.SetUserLikesSport(pUserId, pGenreId);
+                result.Result = content;
+                result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            catch (ArgumentNullException)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 400, ErrorMessage = HttpStatusCode.BadRequest };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (EntityCommandExecutionException e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (Exception e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 406, ErrorMessage = e.Message };
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, objresult);
+                throw new HttpResponseException(HttpStatusCode.NotAcceptable);
+            }
+        }
+
+        [Route("wssetuserartslike")]
+        [HttpPost]
+        public HttpResponseMessage SetUserExpArtLike(string pUserId, int pGenreId)
+        {
+            try
+            {
+                ResultResponseModel result = new ResultResponseModel();
+                sp_User_ExpArtsRegister_Result content = _db.SetUserLikesExpArts(pUserId, pGenreId);
+                result.Result = content;
+                result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            catch (ArgumentNullException)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 400, ErrorMessage = HttpStatusCode.BadRequest };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (EntityCommandExecutionException e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (Exception e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 406, ErrorMessage = e.Message };
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, objresult);
+                throw new HttpResponseException(HttpStatusCode.NotAcceptable);
+            }
+        }
+
+        [Route("wssetuserentertainmentlike")]
+        [HttpPost]
+        public HttpResponseMessage SetUserEntertainmentLike(string pUserId, int pGenreId)
+        {
+            try
+            {
+                ResultResponseModel result = new ResultResponseModel();
+                sp_User_EntertainmentRegister_Result content = _db.SetUserLikesEntertaiment(pUserId, pGenreId);
+                result.Result = content;
+                result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            catch (ArgumentNullException)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 400, ErrorMessage = HttpStatusCode.BadRequest };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (EntityCommandExecutionException e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (Exception e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 406, ErrorMessage = e.Message };
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, objresult);
+                throw new HttpResponseException(HttpStatusCode.NotAcceptable);
+            }
+        }
+
+        [Route("wssetusertechlike")]
+        [HttpPost]
+        public HttpResponseMessage SetUserTechLike(string pUserId, int pWeigth)
+        {
+            try
+            {
+                ResultResponseModel result = new ResultResponseModel();
+                _db.SetUserWeightTech(pUserId, pWeigth);
+                result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            catch (ArgumentNullException)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 400, ErrorMessage = HttpStatusCode.BadRequest };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (EntityCommandExecutionException e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (Exception e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 406, ErrorMessage = e.Message };
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, objresult);
+                throw new HttpResponseException(HttpStatusCode.NotAcceptable);
+            }
+        }
+
+        [Route("wssetusertravellike")]
+        [HttpPost]
+        public HttpResponseMessage SetUserTravelLike(string pUserId, int pWeigth)
+        {
+            try
+            {
+                ResultResponseModel result = new ResultResponseModel();
+                _db.SetUserWeightTravel(pUserId, pWeigth);
+                result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                return Request.CreateResponse(HttpStatusCode.OK, result);
+            }
+            catch (ArgumentNullException)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 400, ErrorMessage = HttpStatusCode.BadRequest };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (EntityCommandExecutionException e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            catch (Exception e)
+            {
+                ResultResponseModel objresult = new ResultResponseModel();
+                objresult.Error = new { Error = 406, ErrorMessage = e.Message };
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, objresult);
+                throw new HttpResponseException(HttpStatusCode.NotAcceptable);
+            }
+        }
     }
 }
