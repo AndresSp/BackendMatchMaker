@@ -30,6 +30,8 @@ namespace MatchMaker.Core.Interfaces.Repository
         sp_User_MusicRegister_Result SetUserLikesMusic(string pUserId, int pGenreId);
         sp_User_SportRegister_Result SetUserLikesSport(string pUserId, int pGenreId);
         //sp for comparing passwords
+
+        
         #endregion
     }
 }

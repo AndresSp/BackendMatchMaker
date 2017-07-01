@@ -317,49 +317,49 @@ namespace MatchMaker.Infrastructure.Data
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_User_SportRegister_Result>("sp_User_SportRegister", userIdParameter, genreIdParameter);
         }
     
-        public virtual ObjectResult<string> sp_GetUserBookLikes(Nullable<System.Guid> userId)
+        public virtual ObjectResult<sp_GetUserBookLikes_Result> sp_GetUserBookLikes(Nullable<System.Guid> userId)
         {
             var userIdParameter = userId.HasValue ?
                 new ObjectParameter("UserId", userId) :
                 new ObjectParameter("UserId", typeof(System.Guid));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("sp_GetUserBookLikes", userIdParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_GetUserBookLikes_Result>("sp_GetUserBookLikes", userIdParameter);
         }
     
-        public virtual ObjectResult<string> sp_GetUserEntertainmentLikes(Nullable<System.Guid> userId)
+        public virtual ObjectResult<sp_GetUserEntertainmentLikes_Result> sp_GetUserEntertainmentLikes(Nullable<System.Guid> userId)
         {
             var userIdParameter = userId.HasValue ?
                 new ObjectParameter("UserId", userId) :
                 new ObjectParameter("UserId", typeof(System.Guid));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("sp_GetUserEntertainmentLikes", userIdParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_GetUserEntertainmentLikes_Result>("sp_GetUserEntertainmentLikes", userIdParameter);
         }
     
-        public virtual ObjectResult<string> sp_GetUserExpArtsLikes(Nullable<System.Guid> userId)
+        public virtual ObjectResult<sp_GetUserExpArtsLikes_Result> sp_GetUserExpArtsLikes(Nullable<System.Guid> userId)
         {
             var userIdParameter = userId.HasValue ?
                 new ObjectParameter("UserId", userId) :
                 new ObjectParameter("UserId", typeof(System.Guid));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("sp_GetUserExpArtsLikes", userIdParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_GetUserExpArtsLikes_Result>("sp_GetUserExpArtsLikes", userIdParameter);
         }
     
-        public virtual ObjectResult<string> sp_GetUserMusicLikes(Nullable<System.Guid> userId)
+        public virtual ObjectResult<sp_GetUserMusicLikes_Result> sp_GetUserMusicLikes(Nullable<System.Guid> userId)
         {
             var userIdParameter = userId.HasValue ?
                 new ObjectParameter("UserId", userId) :
                 new ObjectParameter("UserId", typeof(System.Guid));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("sp_GetUserMusicLikes", userIdParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_GetUserMusicLikes_Result>("sp_GetUserMusicLikes", userIdParameter);
         }
     
-        public virtual ObjectResult<string> sp_GetUserSportLikes(Nullable<System.Guid> userId)
+        public virtual ObjectResult<sp_GetUserSportLikes_Result> sp_GetUserSportLikes(Nullable<System.Guid> userId)
         {
             var userIdParameter = userId.HasValue ?
                 new ObjectParameter("UserId", userId) :
                 new ObjectParameter("UserId", typeof(System.Guid));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("sp_GetUserSportLikes", userIdParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_GetUserSportLikes_Result>("sp_GetUserSportLikes", userIdParameter);
         }
     }
 }

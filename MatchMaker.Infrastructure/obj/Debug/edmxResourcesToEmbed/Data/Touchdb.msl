@@ -285,10 +285,40 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_GetUserBookLikes" FunctionName="touchdbModel.Store.sp_GetUserBookLikes" />
-    <FunctionImportMapping FunctionImportName="sp_GetUserEntertainmentLikes" FunctionName="touchdbModel.Store.sp_GetUserEntertainmentLikes" />
-    <FunctionImportMapping FunctionImportName="sp_GetUserExpArtsLikes" FunctionName="touchdbModel.Store.sp_GetUserExpArtsLikes" />
-    <FunctionImportMapping FunctionImportName="sp_GetUserMusicLikes" FunctionName="touchdbModel.Store.sp_GetUserMusicLikes" />
-    <FunctionImportMapping FunctionImportName="sp_GetUserSportLikes" FunctionName="touchdbModel.Store.sp_GetUserSportLikes" />
+    <FunctionImportMapping FunctionImportName="sp_GetUserBookLikes" FunctionName="touchdbModel.Store.sp_GetUserBookLikes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserBookLikes_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetUserEntertainmentLikes" FunctionName="touchdbModel.Store.sp_GetUserEntertainmentLikes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserEntertainmentLikes_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetUserExpArtsLikes" FunctionName="touchdbModel.Store.sp_GetUserExpArtsLikes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserExpArtsLikes_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetUserMusicLikes" FunctionName="touchdbModel.Store.sp_GetUserMusicLikes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserMusicLikes_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetUserSportLikes" FunctionName="touchdbModel.Store.sp_GetUserSportLikes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserSportLikes_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

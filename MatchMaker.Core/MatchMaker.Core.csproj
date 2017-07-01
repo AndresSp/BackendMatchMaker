@@ -84,7 +84,22 @@
     <Compile Include="Model\sp_FacultySelect_Result.cs">
       <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\sp_GetUserBookLikes_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_GetUserEntertainmentLikes_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_GetUserExpArtsLikes_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\sp_GetUserMatchs_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_GetUserMusicLikes_Result.cs">
+      <DependentUpon>touchdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sp_GetUserSportLikes_Result.cs">
       <DependentUpon>touchdb.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\sp_helpdiagramdefinition_Result.cs">

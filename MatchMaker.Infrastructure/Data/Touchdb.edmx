@@ -784,19 +784,19 @@
             <Parameter Name="UserId" Mode="In" Type="Guid" />
             <Parameter Name="GenreId" Mode="In" Type="Int32" />
           </FunctionImport>
-          <FunctionImport Name="sp_GetUserBookLikes" ReturnType="Collection(String)">
+          <FunctionImport Name="sp_GetUserBookLikes" ReturnType="Collection(touchdbModel.sp_GetUserBookLikes_Result)">
           <Parameter Name="UserId" Mode="In" Type="Guid" />
           </FunctionImport>
-          <FunctionImport Name="sp_GetUserEntertainmentLikes" ReturnType="Collection(String)">
+          <FunctionImport Name="sp_GetUserEntertainmentLikes" ReturnType="Collection(touchdbModel.sp_GetUserEntertainmentLikes_Result)">
           <Parameter Name="UserId" Mode="In" Type="Guid" />
           </FunctionImport>
-          <FunctionImport Name="sp_GetUserExpArtsLikes" ReturnType="Collection(String)">
+          <FunctionImport Name="sp_GetUserExpArtsLikes" ReturnType="Collection(touchdbModel.sp_GetUserExpArtsLikes_Result)">
           <Parameter Name="UserId" Mode="In" Type="Guid" />
           </FunctionImport>
-          <FunctionImport Name="sp_GetUserMusicLikes" ReturnType="Collection(String)">
+          <FunctionImport Name="sp_GetUserMusicLikes" ReturnType="Collection(touchdbModel.sp_GetUserMusicLikes_Result)">
           <Parameter Name="UserId" Mode="In" Type="Guid" />
           </FunctionImport>
-          <FunctionImport Name="sp_GetUserSportLikes" ReturnType="Collection(String)">
+          <FunctionImport Name="sp_GetUserSportLikes" ReturnType="Collection(touchdbModel.sp_GetUserSportLikes_Result)">
           <Parameter Name="UserId" Mode="In" Type="Guid" />
           </FunctionImport>
         </EntityContainer>
@@ -937,6 +937,21 @@
           <Property Type="Int32" Name="MatchId" Nullable="false" />
           <Property Type="Guid" Name="UserId" Nullable="false" />
           <Property Type="Int32" Name="GenreId" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="sp_GetUserBookLikes_Result">
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="sp_GetUserEntertainmentLikes_Result">
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="sp_GetUserExpArtsLikes_Result">
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="sp_GetUserMusicLikes_Result">
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="sp_GetUserSportLikes_Result">
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -1228,11 +1243,41 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="sp_GetUserBookLikes" FunctionName="touchdbModel.Store.sp_GetUserBookLikes" />
-          <FunctionImportMapping FunctionImportName="sp_GetUserEntertainmentLikes" FunctionName="touchdbModel.Store.sp_GetUserEntertainmentLikes" />
-          <FunctionImportMapping FunctionImportName="sp_GetUserExpArtsLikes" FunctionName="touchdbModel.Store.sp_GetUserExpArtsLikes" />
-          <FunctionImportMapping FunctionImportName="sp_GetUserMusicLikes" FunctionName="touchdbModel.Store.sp_GetUserMusicLikes" />
-          <FunctionImportMapping FunctionImportName="sp_GetUserSportLikes" FunctionName="touchdbModel.Store.sp_GetUserSportLikes" />
+          <FunctionImportMapping FunctionImportName="sp_GetUserBookLikes" FunctionName="touchdbModel.Store.sp_GetUserBookLikes" >
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserBookLikes_Result">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_GetUserEntertainmentLikes" FunctionName="touchdbModel.Store.sp_GetUserEntertainmentLikes" >
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserEntertainmentLikes_Result">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_GetUserExpArtsLikes" FunctionName="touchdbModel.Store.sp_GetUserExpArtsLikes" >
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserExpArtsLikes_Result">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_GetUserMusicLikes" FunctionName="touchdbModel.Store.sp_GetUserMusicLikes" >
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserMusicLikes_Result">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_GetUserSportLikes" FunctionName="touchdbModel.Store.sp_GetUserSportLikes" >
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserSportLikes_Result">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
