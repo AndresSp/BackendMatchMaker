@@ -53,7 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IA.cs" />
+    <Compile Include="Loader.cs" />
+    <Compile Include="PrologLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +62,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MatchMaker.Core\MatchMaker.Core.csproj">
+      <Project>{cd7c8345-aa27-4c80-abec-c956248310b0}</Project>
+      <Name>MatchMaker.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MatchMaker.Infrastructure\MatchMaker.Infrastructure.csproj">
       <Project>{9246b06b-dcda-4310-8393-119eb17d75d1}</Project>
       <Name>MatchMaker.Infrastructure</Name>
