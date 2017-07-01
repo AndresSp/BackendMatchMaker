@@ -31,7 +31,15 @@ namespace MatchMaker.Core.Interfaces.Repository
         sp_User_SportRegister_Result SetUserLikesSport(string pUserId, int pGenreId);
         //sp for comparing passwords
 
-        
+
+        #endregion
+
+        #region
+        List<sp_GetUserBookLikes_Result> GetUserBookLikes(string pUserId);
+        List<sp_GetUserEntertainmentLikes_Result> GetUserEntertainmentLikes(string pUserId);
+        List<sp_GetUserExpArtsLikes_Result> GetUserExpArtsLikes(string pUserId);
+        List<sp_GetUserMusicLikes_Result> GetUserMusicLikes(string pUserId);
+        List<sp_GetUserSportLikes_Result> GetUserSportLikes(string pUserId);
         #endregion
     }
 }
