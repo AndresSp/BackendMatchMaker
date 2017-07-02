@@ -138,3 +138,6 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ru\System.Spatial.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.dll.config

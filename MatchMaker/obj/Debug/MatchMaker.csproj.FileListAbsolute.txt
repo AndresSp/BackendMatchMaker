@@ -193,3 +193,6 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\ko\System.Spatial.reso
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\ru\System.Spatial.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Core.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.dll.config

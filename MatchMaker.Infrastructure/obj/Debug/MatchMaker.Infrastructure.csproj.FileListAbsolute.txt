@@ -93,3 +93,4 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\k
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\ru\System.Spatial.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\bin\Debug\MatchMaker.Core.dll.config

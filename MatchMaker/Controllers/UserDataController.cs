@@ -66,8 +66,8 @@ namespace MatchMaker.Controllers
                 if(content == null)
                 {
                     result.Result = "Email Incorrecto";
-                    result.Error = new { Error = 401, ErrorMessage = "Unauthorized" };
-                    return Request.CreateResponse(HttpStatusCode.Unauthorized, result);
+                    result.Error = new { Error = 201, ErrorMessage = "Verificar Email" };
+                    return Request.CreateResponse(HttpStatusCode.OK, result);
                 }
 
                 sp_UserSelectPassword_Result password = _db.GetUserPassword(content.UserId);
@@ -81,8 +81,8 @@ namespace MatchMaker.Controllers
                 else
                 {
                     result.Result = "Contraseña Incorrecta";
-                    result.Error = new { Error = 401, ErrorMessage = "Unauthorized" };
-                    return Request.CreateResponse(HttpStatusCode.Unauthorized, result);
+                    result.Error = new { Error = 201, ErrorMessage = "Verificar Contraseña" };
+                    return Request.CreateResponse(HttpStatusCode.OK, result);
                 }
                               
             }
