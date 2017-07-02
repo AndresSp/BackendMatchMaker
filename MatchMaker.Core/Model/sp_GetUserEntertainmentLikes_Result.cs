@@ -14,5 +14,6 @@ namespace MatchMaker.Core.Model
     public partial class sp_GetUserEntertainmentLikes_Result
     {
         public string Name { get; set; }
+        public int GenreId { get; set; }
     }
 }

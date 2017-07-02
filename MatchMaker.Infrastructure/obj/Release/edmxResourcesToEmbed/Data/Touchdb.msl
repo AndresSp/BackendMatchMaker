@@ -290,6 +290,7 @@
       <ResultMapping>
         <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserBookLikes_Result">
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
@@ -297,6 +298,7 @@
       <ResultMapping>
         <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserEntertainmentLikes_Result">
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
@@ -304,6 +306,7 @@
       <ResultMapping>
         <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserExpArtsLikes_Result">
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
@@ -311,6 +314,7 @@
       <ResultMapping>
         <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserMusicLikes_Result">
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
@@ -318,6 +322,7 @@
       <ResultMapping>
         <ComplexTypeMapping TypeName="touchdbModel.sp_GetUserSportLikes_Result">
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="GenreId" ColumnName="GenreId" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>

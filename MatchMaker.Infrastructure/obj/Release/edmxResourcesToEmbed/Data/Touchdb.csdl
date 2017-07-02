@@ -610,18 +610,23 @@
   </ComplexType>
   <ComplexType Name="sp_GetUserBookLikes_Result">
     <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
   </ComplexType>
   <ComplexType Name="sp_GetUserEntertainmentLikes_Result">
     <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
   </ComplexType>
   <ComplexType Name="sp_GetUserExpArtsLikes_Result">
     <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
   </ComplexType>
   <ComplexType Name="sp_GetUserMusicLikes_Result">
     <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
   </ComplexType>
   <ComplexType Name="sp_GetUserSportLikes_Result">
     <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="GenreId" Nullable="false" />
   </ComplexType>
   <ComplexType Name="sp_UserSelectByEmail_Result">
     <Property Type="Guid" Name="UserId" Nullable="false" />

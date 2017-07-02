@@ -498,13 +498,13 @@ namespace MatchMaker.Controllers
             try
             {
                 ResultResponseModel result = new ResultResponseModel();
-                object content = new object[] {
-                    _db.GetUserBookLikes(pUserId), 
-                    _db.GetUserMusicLikes(pUserId),
-                    _db.GetUserSportLikes(pUserId),
-                    _db.GetUserEntertainmentLikes(pUserId),
-                    _db.GetUserExpArtsLikes(pUserId)
-                };
+                UserLikesModel content = new UserLikesModel();
+                content.Books = _db.GetUserBookLikes(pUserId);
+                content.Music = _db.GetUserMusicLikes(pUserId);
+                content.Sports = _db.GetUserSportLikes(pUserId);
+                content.Entertainment = _db.GetUserEntertainmentLikes(pUserId);
+                content.ExpArt = _db.GetUserExpArtsLikes(pUserId);
+
                 result.Result = content;
                 result.Error = new { Error = 200, ErrorMessage = "Ok" };
                 return Request.CreateResponse(HttpStatusCode.OK, result);

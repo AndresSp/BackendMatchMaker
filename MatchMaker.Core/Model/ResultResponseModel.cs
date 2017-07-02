@@ -11,4 +11,13 @@ namespace MatchMaker.Core.Model
         public Object Result { get; set; }
         public Object Error { get; set; }
     }
+
+    public class UserLikesModel
+    {
+        public List<sp_GetUserBookLikes_Result> Books { get; set; }
+        public List<sp_GetUserMusicLikes_Result> Music { get; set; }
+        public List<sp_GetUserSportLikes_Result> Sports { get; set; }
+        public List<sp_GetUserEntertainmentLikes_Result> Entertainment { get; set; }
+        public List<sp_GetUserExpArtsLikes_Result> ExpArt { get; set; }
+    }
 }
