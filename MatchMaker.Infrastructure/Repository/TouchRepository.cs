@@ -200,6 +200,11 @@ namespace MatchMaker.Infrastructure.Repository
                 context.sp_User_TechRegister(Guid.Parse(pUserId), pWeight);
             }
         }
+
+        //public void UploadPhotoToBlob(string pInBase64)
+        //{
+
+        //}
         #endregion
 
         #region User Likes Management (IA)

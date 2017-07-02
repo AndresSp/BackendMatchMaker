@@ -34,6 +34,8 @@ namespace MatchMaker.Core.Interfaces.Repository
         void SetUserWeightTravel(string pUserId, int pWeight);
         void SetUserWeightTech(string pUserId, int pWeight);
         sp_UserSelectByEmail_Result GetUserByEmail(string pEmail);
+
+        //void UploadPhotoToBlob(string pInBase64);
         #endregion
 
         #region User Likes Management
