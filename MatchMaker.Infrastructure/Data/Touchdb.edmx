@@ -127,7 +127,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__User_Book__UserI__4F7CD00D">
-          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="User_Books" Type="Self.User_Books" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="User">
@@ -151,7 +153,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__User_Ente__UserI__5AEE82B9">
-          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="User_Entertainment" Type="Self.User_Entertainment" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="User">
@@ -175,7 +179,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__User_ExpA__UserI__534D60F1">
-          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="User_ExpArts" Type="Self.User_ExpArts" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="User">
@@ -199,7 +205,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__User_Musi__UserI__571DF1D5">
-          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="User_Music" Type="Self.User_Music" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="User">
@@ -223,7 +231,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__User_Spor__UserI__4BAC3F29">
-          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="User" Type="Self.User" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="User_Sport" Type="Self.User_Sport" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="User">
@@ -306,12 +316,16 @@
           <Parameter Name="Password" Type="nvarchar" Mode="In" />
           <Parameter Name="FirstName" Type="nvarchar" Mode="In" />
           <Parameter Name="LastName" Type="nvarchar" Mode="In" />
+          <Parameter Name="PhoneNumber" Type="nvarchar" Mode="In" />
         </Function>
         <Function Name="sp_UserSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="sp_UserSelectByEmail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="Email" Type="nvarchar" Mode="In" />
         </Function>
         <Function Name="sp_UserSelectById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+        </Function>
+        <Function Name="sp_UserSelectPassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
         </Function>
         <Function Name="sp_UserUpdatePhoto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
@@ -754,6 +768,7 @@
             <Parameter Name="Password" Mode="In" Type="String" />
             <Parameter Name="FirstName" Mode="In" Type="String" />
             <Parameter Name="LastName" Mode="In" Type="String" />
+            <Parameter Name="PhoneNumber" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_UserSelect" ReturnType="Collection(touchdbModel.sp_UserSelect_Result)">
           </FunctionImport>
@@ -854,6 +869,9 @@
           <FunctionImport Name="sp_UserUpdatePhoto" ReturnType="Collection(touchdbModel.sp_UserUpdatePhoto_Result)">
             <Parameter Name="UserId" Mode="In" Type="Guid" />
             <Parameter Name="ImageUrl" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_UserSelectPassword" ReturnType="Collection(touchdbModel.sp_UserSelectPassword_Result)">
+          <Parameter Name="UserId" Mode="In" Type="Guid" />
           </FunctionImport>
         </EntityContainer>
         <ComplexType Name="sp_BooksSelect_Result">
@@ -1011,7 +1029,6 @@
         </ComplexType>
         <ComplexType Name="sp_UserSelectByEmail_Result">
           <Property Type="Guid" Name="UserId" Nullable="false" />
-          <Property Type="String" Name="Password" Nullable="false" MaxLength="50" />
           <Property Type="String" Name="FirstName" Nullable="true" MaxLength="50" />
           <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
           <Property Type="DateTime" Name="NacDate" Nullable="true" />
@@ -1022,6 +1039,7 @@
           <Property Type="Int32" Name="TravelW" Nullable="true" />
           <Property Type="Int32" Name="TechW" Nullable="true" />
           <Property Type="String" Name="ImageURL" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="15" />
         </ComplexType>
         <ComplexType Name="sp_UserUpdateProfile_Result">
           <Property Type="Guid" Name="UserId" Nullable="false" />
@@ -1036,6 +1054,9 @@
         </ComplexType>
         <ComplexType Name="sp_UserUpdatePhoto_Result">
           <Property Type="String" Name="ImageUrl" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="sp_UserSelectPassword_Result">
+          <Property Type="String" Name="Password" Nullable="false" MaxLength="50" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -1369,7 +1390,6 @@
             <ResultMapping>
               <ComplexTypeMapping TypeName="touchdbModel.sp_UserSelectByEmail_Result">
                 <ScalarProperty Name="UserId" ColumnName="UserId" />
-                <ScalarProperty Name="Password" ColumnName="Password" />
                 <ScalarProperty Name="FirstName" ColumnName="FirstName" />
                 <ScalarProperty Name="LastName" ColumnName="LastName" />
                 <ScalarProperty Name="NacDate" ColumnName="NacDate" />
@@ -1380,6 +1400,7 @@
                 <ScalarProperty Name="TravelW" ColumnName="TravelW" />
                 <ScalarProperty Name="TechW" ColumnName="TechW" />
                 <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
@@ -1402,6 +1423,13 @@
             <ResultMapping>
               <ComplexTypeMapping TypeName="touchdbModel.sp_UserUpdatePhoto_Result">
                 <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_UserSelectPassword" FunctionName="touchdbModel.Store.sp_UserSelectPassword" >
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="touchdbModel.sp_UserSelectPassword_Result">
+                <ScalarProperty Name="Password" ColumnName="Password" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

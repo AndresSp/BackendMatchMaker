@@ -21,12 +21,12 @@ namespace MatchMaker.Controllers
 
         [Route("wsregisteruser")]
         [HttpPost]
-        public HttpResponseMessage RegisterUserInApp(string pEmail, string pPassword, string pFirstName, string pLastName)
+        public HttpResponseMessage RegisterUserInApp(string pEmail, string pPassword, string pFirstName, string pLastName, string pPhoneNumber)
         {
             try
             {
                 ResultResponseModel result = new ResultResponseModel();
-                sp_UserRegister_Result content = _db.RegisterUser(pEmail, pPassword, pFirstName, pLastName);
+                sp_UserRegister_Result content = _db.RegisterUser(pEmail, pPassword, pFirstName, pLastName, pPhoneNumber);
                 result.Result = content;
                 result.Error = new { Error = 200, ErrorMessage = "Ok" };
                 return Request.CreateResponse(HttpStatusCode.OK, result);
@@ -54,17 +54,37 @@ namespace MatchMaker.Controllers
             }
         }
 
-        [Route("wsvalidateemail")]
+        [Route("wslogin")]
         [HttpPost]
-        public HttpResponseMessage GetUserByEmail(string pEmail)
+        public HttpResponseMessage Login(string pEmail, string pPassword)
         {
             try
             {
                 ResultResponseModel result = new ResultResponseModel();
-                sp_UserSelectByEmail_Result content = _db.GetUserByEmail(pEmail);
-                result.Result = content;
-                result.Error = new { Error = 200, ErrorMessage = "Ok" };
-                return Request.CreateResponse(HttpStatusCode.OK, result);
+                sp_UserSelectByEmail_Result content = _db.GetUserByEmail(pEmail);                
+
+                if(content == null)
+                {
+                    result.Result = "Email Incorrecto";
+                    result.Error = new { Error = 401, ErrorMessage = "Unauthorized" };
+                    return Request.CreateResponse(HttpStatusCode.Unauthorized, result);
+                }
+
+                sp_UserSelectPassword_Result password = _db.GetUserPassword(content.UserId);
+
+                if (pPassword == password.Password)
+                {
+                    result.Result = content;
+                    result.Error = new { Error = 200, ErrorMessage = "Ok" };
+                    return Request.CreateResponse(HttpStatusCode.OK, result);
+                }
+                else
+                {
+                    result.Result = "Contraseña Incorrecta";
+                    result.Error = new { Error = 401, ErrorMessage = "Unauthorized" };
+                    return Request.CreateResponse(HttpStatusCode.Unauthorized, result);
+                }
+                              
             }
             catch (ArgumentNullException)
             {
@@ -76,7 +96,7 @@ namespace MatchMaker.Controllers
             catch (EntityCommandExecutionException e)
             {
                 ResultResponseModel objresult = new ResultResponseModel();
-                objresult.Error = new { Error = 5004, ErrorMessage = "Device o  Customer No Encontrados" };
+                objresult.Error = new { Error = 5004, ErrorMessage = "Usuario No Encontrado" };
                 return Request.CreateResponse(HttpStatusCode.BadRequest, objresult);
                 throw new HttpResponseException(HttpStatusCode.BadRequest);
             }

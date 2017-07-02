@@ -14,7 +14,6 @@ namespace MatchMaker.Core.Model
     public partial class sp_UserSelectByEmail_Result
     {
         public System.Guid UserId { get; set; }
-        public string Password { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Nullable<System.DateTime> NacDate { get; set; }
@@ -25,5 +24,6 @@ namespace MatchMaker.Core.Model
         public Nullable<int> TravelW { get; set; }
         public Nullable<int> TechW { get; set; }
         public string ImageURL { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }

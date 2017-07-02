@@ -23,7 +23,7 @@ namespace MatchMaker.Core.Interfaces.Repository
         List<sp_GetUserMatchs_Result> GetUserMatch(string pUserId);
         sp_UserSelectById_Result GetUserProfile(string pUserId);
         sp_UserUpdateProfile_Result UpdateUserProfile(string pUserId, string pFirstName, string pLastName, string pPhoneNumber, DateTime pNacDate, char pGender, char pGenderPref, string pEmail, int pFaculty, string pImageUrl);
-        sp_UserRegister_Result RegisterUser(string pEmail, string pPassword, string pFirstName, string pLastName);
+        sp_UserRegister_Result RegisterUser(string pEmail, string pPassword, string pFirstName, string pLastName, string pPhoneNumber);
         sp_UserUpdatePhoto_Result UpdateUserPhoto(string pUserId, string ImageUrl);
         void DeleteUser(string pUserId);
         sp_User_BooksRegister_Result SetUserLikesBooks(string pUserId, int pGenreId);
@@ -34,6 +34,7 @@ namespace MatchMaker.Core.Interfaces.Repository
         void SetUserWeightTravel(string pUserId, int pWeight);
         void SetUserWeightTech(string pUserId, int pWeight);
         sp_UserSelectByEmail_Result GetUserByEmail(string pEmail);
+        sp_UserSelectPassword_Result GetUserPassword(Guid pUserId);
 
         //void UploadPhotoToBlob(string pInBase64);
         #endregion

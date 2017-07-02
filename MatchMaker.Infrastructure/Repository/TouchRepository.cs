@@ -105,11 +105,11 @@ namespace MatchMaker.Infrastructure.Repository
             }
         }
 
-        public sp_UserRegister_Result RegisterUser(string pEmail, string pPassword, string pFirstName, string pLastName)
+        public sp_UserRegister_Result RegisterUser(string pEmail, string pPassword, string pFirstName, string pLastName, string pPhoneNumber)
         {
             using (touchdbEntities context = new touchdbEntities())
             {
-                var pRegisteredUser = context.sp_UserRegister(pEmail, pPassword, pFirstName, pLastName).FirstOrDefault();
+                var pRegisteredUser = context.sp_UserRegister(pEmail, pPassword, pFirstName, pLastName, pPhoneNumber).FirstOrDefault();
                 return pRegisteredUser;
             }
         }
@@ -198,6 +198,15 @@ namespace MatchMaker.Infrastructure.Repository
             using (touchdbEntities context = new touchdbEntities())
             {
                 context.sp_User_TechRegister(Guid.Parse(pUserId), pWeight);
+            }
+        }
+
+        public sp_UserSelectPassword_Result GetUserPassword(Guid pUserId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                var Password = context.sp_UserSelectPassword(pUserId).FirstOrDefault();
+                return Password;
             }
         }
 

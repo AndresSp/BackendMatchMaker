@@ -365,6 +365,7 @@
       <Parameter Name="Password" Mode="In" Type="String" />
       <Parameter Name="FirstName" Mode="In" Type="String" />
       <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="PhoneNumber" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="sp_UserSelect" ReturnType="Collection(touchdbModel.sp_UserSelect_Result)" />
     <FunctionImport Name="sp_GetUserMatchs" ReturnType="Collection(touchdbModel.sp_GetUserMatchs_Result)">
@@ -464,6 +465,9 @@
     <FunctionImport Name="sp_UserUpdatePhoto" ReturnType="Collection(touchdbModel.sp_UserUpdatePhoto_Result)">
       <Parameter Name="UserId" Mode="In" Type="Guid" />
       <Parameter Name="ImageUrl" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UserSelectPassword" ReturnType="Collection(touchdbModel.sp_UserSelectPassword_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Guid" />
     </FunctionImport>
   </EntityContainer>
   <ComplexType Name="sp_BooksSelect_Result">
@@ -621,7 +625,6 @@
   </ComplexType>
   <ComplexType Name="sp_UserSelectByEmail_Result">
     <Property Type="Guid" Name="UserId" Nullable="false" />
-    <Property Type="String" Name="Password" Nullable="false" MaxLength="50" />
     <Property Type="String" Name="FirstName" Nullable="true" MaxLength="50" />
     <Property Type="String" Name="LastName" Nullable="true" MaxLength="50" />
     <Property Type="DateTime" Name="NacDate" Nullable="true" />
@@ -632,6 +635,7 @@
     <Property Type="Int32" Name="TravelW" Nullable="true" />
     <Property Type="Int32" Name="TechW" Nullable="true" />
     <Property Type="String" Name="ImageURL" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="15" />
   </ComplexType>
   <ComplexType Name="sp_UserUpdateProfile_Result">
     <Property Type="Guid" Name="UserId" Nullable="false" />
@@ -646,5 +650,8 @@
   </ComplexType>
   <ComplexType Name="sp_UserUpdatePhoto_Result">
     <Property Type="String" Name="ImageUrl" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_UserSelectPassword_Result">
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="50" />
   </ComplexType>
 </Schema>

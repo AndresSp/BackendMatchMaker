@@ -105,7 +105,7 @@ namespace MatchMaker.Infrastructure.Data
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_UserDelete", userIdParameter);
         }
     
-        public virtual ObjectResult<sp_UserRegister_Result> sp_UserRegister(string email, string password, string firstName, string lastName)
+        public virtual ObjectResult<sp_UserRegister_Result> sp_UserRegister(string email, string password, string firstName, string lastName, string phoneNumber)
         {
             var emailParameter = email != null ?
                 new ObjectParameter("Email", email) :
@@ -123,7 +123,11 @@ namespace MatchMaker.Infrastructure.Data
                 new ObjectParameter("LastName", lastName) :
                 new ObjectParameter("LastName", typeof(string));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserRegister_Result>("sp_UserRegister", emailParameter, passwordParameter, firstNameParameter, lastNameParameter);
+            var phoneNumberParameter = phoneNumber != null ?
+                new ObjectParameter("PhoneNumber", phoneNumber) :
+                new ObjectParameter("PhoneNumber", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserRegister_Result>("sp_UserRegister", emailParameter, passwordParameter, firstNameParameter, lastNameParameter, phoneNumberParameter);
         }
     
         public virtual ObjectResult<sp_UserSelect_Result> sp_UserSelect()
@@ -453,6 +457,15 @@ namespace MatchMaker.Infrastructure.Data
                 new ObjectParameter("ImageUrl", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserUpdatePhoto_Result>("sp_UserUpdatePhoto", userIdParameter, imageUrlParameter);
+        }
+    
+        public virtual ObjectResult<sp_UserSelectPassword_Result> sp_UserSelectPassword(Nullable<System.Guid> userId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserSelectPassword_Result>("sp_UserSelectPassword", userIdParameter);
         }
     }
 }

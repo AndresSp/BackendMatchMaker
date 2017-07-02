@@ -122,7 +122,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__User_Book__UserI__4F7CD00D">
-    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="User_Books" Type="Self.User_Books" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="User">
@@ -146,7 +148,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__User_Ente__UserI__5AEE82B9">
-    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="User_Entertainment" Type="Self.User_Entertainment" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="User">
@@ -170,7 +174,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__User_ExpA__UserI__534D60F1">
-    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="User_ExpArts" Type="Self.User_ExpArts" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="User">
@@ -194,7 +200,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__User_Musi__UserI__571DF1D5">
-    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="User_Music" Type="Self.User_Music" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="User">
@@ -218,7 +226,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__User_Spor__UserI__4BAC3F29">
-    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="User_Sport" Type="Self.User_Sport" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="User">
@@ -301,6 +311,7 @@
     <Parameter Name="Password" Type="nvarchar" Mode="In" />
     <Parameter Name="FirstName" Type="nvarchar" Mode="In" />
     <Parameter Name="LastName" Type="nvarchar" Mode="In" />
+    <Parameter Name="PhoneNumber" Type="nvarchar" Mode="In" />
   </Function>
   <Function Name="sp_UserSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="sp_UserSelectByEmail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
@@ -308,6 +319,13 @@
   </Function>
   <Function Name="sp_UserSelectById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="sp_UserSelectPassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="sp_UserUpdatePhoto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="ImageUrl" Type="nvarchar" Mode="In" />
   </Function>
   <Function Name="sp_UserUpdateProfile" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
