@@ -22,14 +22,14 @@ namespace MatchMaker.Controllers
 
         [Route("wsuploadimage")]
         [HttpPost]
-        public HttpResponseMessage UploadImage(string pUserId, string pPhotoEncoded, string pFileName)
+        public HttpResponseMessage UploadImage(ImageModel content)
         {
             try
             {
                 ResultResponseModel result = new ResultResponseModel();
-                string content = new BlobServices().UploadPhoto(pPhotoEncoded, pFileName);
+                string url = new BlobServices().UploadPhoto(content.pPhotoEncoded, content.pFileName);
 
-                _db.UpdateUserPhoto(pUserId, content);
+                _db.UpdateUserPhoto(content.pUserId, url);
 
                 result.Result = content;
                 result.Error = new { Error = 200, ErrorMessage = "Ok" };

@@ -467,5 +467,70 @@ namespace MatchMaker.Infrastructure.Data
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_UserSelectPassword_Result>("sp_UserSelectPassword", userIdParameter);
         }
+    
+        public virtual int sp_User_BookDelete(Nullable<System.Guid> userId, Nullable<int> genreId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            var genreIdParameter = genreId.HasValue ?
+                new ObjectParameter("GenreId", genreId) :
+                new ObjectParameter("GenreId", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_User_BookDelete", userIdParameter, genreIdParameter);
+        }
+    
+        public virtual int sp_User_EntertainmentDelete(Nullable<System.Guid> userId, Nullable<int> genreId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            var genreIdParameter = genreId.HasValue ?
+                new ObjectParameter("GenreId", genreId) :
+                new ObjectParameter("GenreId", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_User_EntertainmentDelete", userIdParameter, genreIdParameter);
+        }
+    
+        public virtual int sp_User_ExpArtsDelete(Nullable<System.Guid> userId, Nullable<int> genreId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            var genreIdParameter = genreId.HasValue ?
+                new ObjectParameter("GenreId", genreId) :
+                new ObjectParameter("GenreId", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_User_ExpArtsDelete", userIdParameter, genreIdParameter);
+        }
+    
+        public virtual int sp_User_MusicDelete(Nullable<System.Guid> userId, Nullable<int> genreId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            var genreIdParameter = genreId.HasValue ?
+                new ObjectParameter("GenreId", genreId) :
+                new ObjectParameter("GenreId", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_User_MusicDelete", userIdParameter, genreIdParameter);
+        }
+    
+        public virtual int sp_User_SportDelete(Nullable<System.Guid> userId, Nullable<int> genreId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            var genreIdParameter = genreId.HasValue ?
+                new ObjectParameter("GenreId", genreId) :
+                new ObjectParameter("GenreId", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_User_SportDelete", userIdParameter, genreIdParameter);
+        }
     }
 }

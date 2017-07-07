@@ -20,4 +20,11 @@ namespace MatchMaker.Core.Model
         public List<sp_GetUserEntertainmentLikes_Result> Entertainment { get; set; }
         public List<sp_GetUserExpArtsLikes_Result> ExpArt { get; set; }
     }
+
+    public class ImageModel
+    {
+        public string pUserId { get; set; }
+        public string pPhotoEncoded { get; set; }
+        public string pFileName { get; set; }
+    }
 }

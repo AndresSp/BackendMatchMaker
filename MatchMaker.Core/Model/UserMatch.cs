@@ -17,6 +17,7 @@ namespace MatchMaker.Core.Model
         public Nullable<System.Guid> UserId_1 { get; set; }
         public Nullable<System.Guid> UserId_2 { get; set; }
         public int MatchId { get; set; }
+        public Nullable<int> MatchPercent { get; set; }
     
         public virtual User User { get; set; }
         public virtual User User1 { get; set; }
