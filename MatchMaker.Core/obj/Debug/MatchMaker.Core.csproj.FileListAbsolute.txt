@@ -21,4 +21,22 @@ C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\bin\Debug\New
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.dll
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.pdb
 C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.csprojResolveAssemblyReference.cache
+=======
+<<<<<<< Updated upstream
+=======
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.csprojResolveAssemblyReference.cache
+C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Core\bin\Debug\MatchMaker.Core.dll.config
+C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Core\bin\Debug\MatchMaker.Core.dll
+C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Core\bin\Debug\MatchMaker.Core.pdb
+C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Core\bin\Debug\EntityFramework.dll
+C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Core\bin\Debug\EntityFramework.xml
+C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.dll
+C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Core\obj\Debug\MatchMaker.Core.pdb
+>>>>>>> Stashed changes
+>>>>>>> origin/master

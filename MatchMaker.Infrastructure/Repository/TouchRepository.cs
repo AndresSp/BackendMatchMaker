@@ -210,10 +210,46 @@ namespace MatchMaker.Infrastructure.Repository
             }
         }
 
-        //public void UploadPhotoToBlob(string pInBase64)
-        //{
+        //AQUI
+        public void DeleteUserBook(string pUserId, int pGenreId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                context.sp_User_BookDelete(Guid.Parse(pUserId), pGenreId);
+            }
+        }
 
-        //}
+        public void DeleteUserMusic(string pUserId, int pGenreId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                context.sp_User_MusicDelete(Guid.Parse(pUserId), pGenreId);
+            }
+        }
+
+        public void DeleteUserSport(string pUserId, int pGenreId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                context.sp_User_SportDelete(Guid.Parse(pUserId), pGenreId);
+            }
+        }
+
+        public void DeleteUserArt(string pUserId, int pGenreId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                context.sp_User_ExpArtsDelete(Guid.Parse(pUserId), pGenreId);
+            }
+        }
+
+        public void DeleteUserEntertainment(string pUserId, int pGenreId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                context.sp_User_EntertainmentDelete(Guid.Parse(pUserId), pGenreId);
+            }
+        }
         #endregion
 
         #region User Likes Management (IA)
