@@ -3,7 +3,7 @@
 <#@ include file="EF.Utility.CS.ttinclude"#><#@ 
  output extension=".cs"#><#
 
-const string inputFile = @"C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure\Data\Touchdb.edmx";
+const string inputFile = @"C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure\Data\Touchdb.edmx";
 
 var textTransform = DynamicTextTransformation.Create(this);
 var code = new CodeGenerationTools(this);

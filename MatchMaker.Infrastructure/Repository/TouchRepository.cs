@@ -210,7 +210,6 @@ namespace MatchMaker.Infrastructure.Repository
             }
         }
 
-        //AQUI
         public void DeleteUserBook(string pUserId, int pGenreId)
         {
             using (touchdbEntities context = new touchdbEntities())
@@ -248,6 +247,14 @@ namespace MatchMaker.Infrastructure.Repository
             using (touchdbEntities context = new touchdbEntities())
             {
                 context.sp_User_EntertainmentDelete(Guid.Parse(pUserId), pGenreId);
+            }
+        }
+
+        public void FindAllMatch(string pUserId)
+        {
+            using (touchdbEntities context = new touchdbEntities())
+            {
+                context.sp_FindAllMatchForUser(Guid.Parse(pUserId));
             }
         }
         #endregion

@@ -1,161 +1,63 @@
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\obj\Debug\MatchMaker.csprojResolveAssemblyReference.cache
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Newtonsoft.Json.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Newtonsoft.Json.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Core.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Net.Http.Formatting.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Http.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Http.WebHost.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.pdb
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\EntityFramework.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Core.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Net.Http.Formatting.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Http.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Http.WebHost.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\EntityFramework.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\EntityFramework.SqlServer.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Core.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Data.Edm.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Data.OData.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Data.Services.Client.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Newtonsoft.Json.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.Web.Common.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\WebActivatorEx.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.Web.Common.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.Web.Mvc.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.Web.WebApi.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.Web.Mvc.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.Web.WebApi.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Net.Http.Formatting.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Spatial.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Helpers.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Http.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Http.WebHost.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Mvc.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Razor.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.Deployment.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.Razor.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Helpers.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Mvc.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Razor.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.Deployment.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.Razor.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\EntityFramework.SqlServer.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\EntityFramework.SqlServer.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.dll.config
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.pdb
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\EntityFramework.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\EntityFramework.SqlServer.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.Core.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\Newtonsoft.Json.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\Ninject.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\Ninject.Web.Common.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\Ninject.Web.Mvc.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\Ninject.Web.WebApi.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Net.Http.Formatting.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.Helpers.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.Http.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.Http.WebHost.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.Mvc.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.Razor.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Deployment.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.WebPages.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Razor.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\WebActivatorEx.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.Core.pdb
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.Core.dll.config
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.pdb
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.dll.config
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.pdb
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.dll.config
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\EntityFramework.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\EntityFramework.SqlServer.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\Newtonsoft.Json.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\Ninject.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\Ninject.Web.Common.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\Ninject.Web.Mvc.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\Ninject.Web.WebApi.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Net.Http.Formatting.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.Helpers.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.Http.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.Http.WebHost.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.Mvc.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.Razor.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.WebPages.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Deployment.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Razor.xml
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.csprojResolveAssemblyReference.cache
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.dll
-C:\Users\dinoa\Documents\GitHub\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\obj\Debug\MatchMaker.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\obj\Debug\MatchMaker.pdb
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.dll.config
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.pdb
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\EntityFramework.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\EntityFramework.SqlServer.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.Core.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\Newtonsoft.Json.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\Ninject.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\Ninject.Web.Common.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\Ninject.Web.Mvc.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\Ninject.Web.WebApi.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Net.Http.Formatting.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.Helpers.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.Http.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.Http.WebHost.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.Mvc.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.Razor.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Deployment.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.WebPages.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Razor.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\WebActivatorEx.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.Core.pdb
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.Core.dll.config
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.pdb
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.dll.config
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.pdb
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.dll.config
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\EntityFramework.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\EntityFramework.SqlServer.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\Newtonsoft.Json.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\Ninject.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\Ninject.Web.Common.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\Ninject.Web.Mvc.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\Ninject.Web.WebApi.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Net.Http.Formatting.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.Helpers.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.Http.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.Http.WebHost.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.Mvc.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.Razor.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.WebPages.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Deployment.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Razor.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.csprojResolveAssemblyReference.cache
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.dll.config
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Azure.KeyVault.Core.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Data.Edm.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Data.OData.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Data.Services.Client.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.WindowsAzure.Storage.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Spatial.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\WebActivatorEx.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Core.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Core.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\EntityFramework.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\EntityFramework.SqlServer.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Azure.KeyVault.Core.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Data.Edm.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Data.OData.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.Data.Services.Client.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.WindowsAzure.Storage.pdb
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Newtonsoft.Json.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.Web.Common.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.Web.Mvc.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Ninject.Web.WebApi.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Net.Http.Formatting.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Spatial.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Helpers.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Http.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Http.WebHost.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Mvc.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.Razor.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.Deployment.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\System.Web.WebPages.Razor.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\Microsoft.WindowsAzure.Configuration.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\de\Microsoft.Data.Edm.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\es\Microsoft.Data.Edm.resources.dll
@@ -193,106 +95,6 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\ko\System.Spatial.reso
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\ru\System.Spatial.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Core.dll.config
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.dll.config
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\bin\MatchMaker.Infrastructure.dll.config
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.dll.config
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.pdb
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\EntityFramework.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\EntityFramework.SqlServer.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.Core.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.Azure.KeyVault.Core.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.Data.Edm.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.Data.OData.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.Data.Services.Client.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.WindowsAzure.Storage.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Newtonsoft.Json.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Ninject.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Ninject.Web.Common.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Ninject.Web.Mvc.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Ninject.Web.WebApi.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Net.Http.Formatting.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Spatial.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.Helpers.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.Http.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.Http.WebHost.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.Mvc.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.Razor.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.WebPages.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Razor.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\WebActivatorEx.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.WindowsAzure.Configuration.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.Core.pdb
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.Core.dll.config
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.pdb
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.DependencyInjection.dll.config
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.pdb
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\MatchMaker.Infrastructure.dll.config
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\EntityFramework.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\EntityFramework.SqlServer.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.Azure.KeyVault.Core.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.Data.Edm.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.Data.OData.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.Data.Services.Client.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.WindowsAzure.Storage.pdb
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.WindowsAzure.Storage.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Newtonsoft.Json.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Ninject.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Ninject.Web.Common.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Ninject.Web.Mvc.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Ninject.Web.WebApi.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Net.Http.Formatting.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Spatial.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.Helpers.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.Http.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.Http.WebHost.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.Mvc.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.Razor.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.WebPages.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\System.Web.WebPages.Razor.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\Microsoft.WindowsAzure.Configuration.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\de\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\es\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\fr\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\it\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ja\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ko\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ru\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\de\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\es\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\fr\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\it\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ja\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ko\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ru\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\zh-Hans\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\zh-Hant\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\de\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\es\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\fr\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\it\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ja\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ko\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ru\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\de\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\es\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\fr\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\it\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ja\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ko\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\ru\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\zh-Hans\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.csprojResolveAssemblyReference.cache
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker\obj\Debug\MatchMaker.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\obj\Debug\MatchMaker.csprojResolveAssemblyReference.cache
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\obj\Debug\MatchMaker.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker\obj\Debug\MatchMaker.pdb

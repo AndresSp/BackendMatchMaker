@@ -281,6 +281,9 @@
         <Function Name="sp_FacultySelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="FacultyId" Type="int" Mode="In" />
         </Function>
+        <Function Name="sp_FindAllMatchForUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+        </Function>
         <Function Name="sp_GetUserBookLikes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
         </Function>
@@ -947,6 +950,9 @@
             <Parameter Name="UserId" Mode="In" Type="Guid" />
             <Parameter Name="GenreId" Mode="In" Type="Int32" />
           </FunctionImport>
+          <FunctionImport Name="sp_FindAllMatchForUser">
+          <Parameter Name="UserId" Mode="In" Type="Guid" />
+          </FunctionImport>
         </EntityContainer>
         <ComplexType Name="sp_BooksSelect_Result">
           <Property Type="Int32" Name="GenreId" Nullable="false" />
@@ -1010,6 +1016,8 @@
           <Property Type="String" Name="GenderPref" Nullable="true" MaxLength="2" />
           <Property Type="Int32" Name="Faculty" Nullable="true" />
           <Property Type="String" Name="ImageURL" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="15" />
+          <Property Type="Int32" Name="MatchPercent" Nullable="true" />
         </ComplexType>
         <ComplexType Name="sp_UserSelectById_Result">
           <Property Type="Guid" Name="UserId" Nullable="false" />
@@ -1363,6 +1371,8 @@
                 <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
                 <ScalarProperty Name="Faculty" ColumnName="Faculty" />
                 <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="MatchPercent" ColumnName="MatchPercent" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
@@ -1523,6 +1533,7 @@
           <FunctionImportMapping FunctionImportName="sp_User_ExpArtsDelete" FunctionName="touchdbModel.Store.sp_User_ExpArtsDelete" />
           <FunctionImportMapping FunctionImportName="sp_User_MusicDelete" FunctionName="touchdbModel.Store.sp_User_MusicDelete" />
           <FunctionImportMapping FunctionImportName="sp_User_SportDelete" FunctionName="touchdbModel.Store.sp_User_SportDelete" />
+          <FunctionImportMapping FunctionImportName="sp_FindAllMatchForUser" FunctionName="touchdbModel.Store.sp_FindAllMatchForUser" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

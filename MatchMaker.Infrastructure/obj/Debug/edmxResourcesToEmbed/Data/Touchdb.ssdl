@@ -276,6 +276,9 @@
   <Function Name="sp_FacultySelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="FacultyId" Type="int" Mode="In" />
   </Function>
+  <Function Name="sp_FindAllMatchForUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+  </Function>
   <Function Name="sp_GetUserBookLikes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
   </Function>

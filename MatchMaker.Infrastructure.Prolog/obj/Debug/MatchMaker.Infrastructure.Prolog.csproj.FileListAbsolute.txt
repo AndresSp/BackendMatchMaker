@@ -1,107 +1,61 @@
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll.config
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\CSProlog.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.csprojResolveAssemblyReference.cache
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\CSProlog.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\WebActivatorEx.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Mvc.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.Common.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.WebHost.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.WebApi.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.Common.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.WebHost.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.WebApi.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Mvc.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Razor.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Razor.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Deployment.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Mvc.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Razor.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Deployment.xml
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.pdb
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll.config
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.pdb
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\CSProlog.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\WebActivatorEx.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Mvc.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.Common.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.WebHost.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Web.Infrastructure.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.WebApi.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Razor.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Razor.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Deployment.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.pdb
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.dll.config
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.pdb
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.dll.config
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.pdb
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.dll.config
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Mvc.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.Common.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.WebHost.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.WebApi.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Razor.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Deployment.xml
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.csprojResolveAssemblyReference.cache
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.dll
-C:\Users\dinoa\Documents\Server Git\app-matchmaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.pdb
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Storage.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.Services.Client.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.OData.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.Edm.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Razor.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Spatial.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.dll.config
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Storage.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Mvc.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.Common.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.WebApi.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.Services.Client.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.OData.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.Edm.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Razor.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Spatial.xml
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
@@ -138,103 +92,6 @@ C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ru\System.Spatial.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hant\System.Spatial.resources.dll
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.dll.config
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.dll.config
-C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.dll.config
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll.config
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.Prolog.pdb
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\CSProlog.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Storage.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\WebActivatorEx.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Mvc.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.Common.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.WebHost.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Web.Infrastructure.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.WebApi.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.Services.Client.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.OData.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.Edm.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Razor.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Razor.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Spatial.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Deployment.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.pdb
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Core.dll.config
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.pdb
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.Infrastructure.dll.config
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.pdb
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\MatchMaker.dll.config
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Storage.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Mvc.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.Common.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Http.WebHost.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Ninject.Web.WebApi.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.Services.Client.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.OData.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Data.Edm.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.Razor.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Spatial.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\System.Web.WebPages.Deployment.xml
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\de\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\es\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\fr\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\it\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ja\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ko\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ru\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\de\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\es\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\it\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\de\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\es\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\fr\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\it\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ja\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ko\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\ru\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hans\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\bin\Debug\zh-Hant\System.Spatial.resources.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.csprojResolveAssemblyReference.cache
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.dll
-C:\Users\Rafi\Documents\Proyecto Cosa\SCB\app-matchmaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.pdb
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.csprojResolveAssemblyReference.cache
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.dll
+C:\Users\omarg\Documents\GitHub\MatchMaker\MatchMaker.Infrastructure.Prolog\obj\Debug\MatchMaker.Infrastructure.Prolog.pdb

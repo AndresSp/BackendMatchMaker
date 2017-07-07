@@ -186,6 +186,7 @@ namespace MatchMaker.Controllers
             try
             {
                 ResultResponseModel result = new ResultResponseModel();
+                _db.FindAllMatch(pUserId);
                 List<sp_GetUserMatchs_Result> content = _db.GetUserMatch(pUserId);
                 result.Result = content;
                 result.Error = new { Error = 200, ErrorMessage = "Ok" };

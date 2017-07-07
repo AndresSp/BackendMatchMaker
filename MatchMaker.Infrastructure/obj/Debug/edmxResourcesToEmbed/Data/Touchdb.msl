@@ -221,6 +221,8 @@
           <ScalarProperty Name="GenderPref" ColumnName="GenderPref" />
           <ScalarProperty Name="Faculty" ColumnName="Faculty" />
           <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MatchPercent" ColumnName="MatchPercent" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
@@ -381,5 +383,6 @@
     <FunctionImportMapping FunctionImportName="sp_User_ExpArtsDelete" FunctionName="touchdbModel.Store.sp_User_ExpArtsDelete" />
     <FunctionImportMapping FunctionImportName="sp_User_MusicDelete" FunctionName="touchdbModel.Store.sp_User_MusicDelete" />
     <FunctionImportMapping FunctionImportName="sp_User_SportDelete" FunctionName="touchdbModel.Store.sp_User_SportDelete" />
+    <FunctionImportMapping FunctionImportName="sp_FindAllMatchForUser" FunctionName="touchdbModel.Store.sp_FindAllMatchForUser" />
   </EntityContainerMapping>
 </Mapping>

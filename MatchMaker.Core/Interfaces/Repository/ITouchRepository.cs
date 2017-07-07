@@ -35,13 +35,12 @@ namespace MatchMaker.Core.Interfaces.Repository
         void SetUserWeightTech(string pUserId, int pWeight);
         sp_UserSelectByEmail_Result GetUserByEmail(string pEmail);
         sp_UserSelectPassword_Result GetUserPassword(Guid pUserId);
-
-        //AQUI
         void DeleteUserBook(string pUserId, int pGenreId);
         void DeleteUserMusic(string pUserId, int pGenreId);
         void DeleteUserSport(string pUserId, int pGenreId);
         void DeleteUserArt(string pUserId, int pGenreId);
         void DeleteUserEntertainment(string pUserId, int pGenreId);
+        void FindAllMatch(string pUserId);
 
         //void UploadPhotoToBlob(string pInBase64);
         #endregion
