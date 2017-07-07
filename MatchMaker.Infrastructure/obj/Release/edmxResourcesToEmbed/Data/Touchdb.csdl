@@ -132,6 +132,7 @@
     <Property Name="MatchId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <NavigationProperty Name="User" Relationship="Self.FK_UserMatch_User" FromRole="UserMatch" ToRole="User" />
     <NavigationProperty Name="User1" Relationship="Self.FK_UserMatch_User1" FromRole="UserMatch" ToRole="User" />
+    <Property Name="MatchPercent" Type="Int32" />
   </EntityType>
   <Association Name="FK__User_Book__Genre__5070F446">
     <End Role="Books" Type="Self.Book" Multiplicity="1" />
@@ -468,6 +469,26 @@
     </FunctionImport>
     <FunctionImport Name="sp_UserSelectPassword" ReturnType="Collection(touchdbModel.sp_UserSelectPassword_Result)">
       <Parameter Name="UserId" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_BookDelete">
+      <Parameter Name="UserId" Mode="In" Type="Guid" />
+      <Parameter Name="GenreId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_EntertainmentDelete">
+      <Parameter Name="UserId" Mode="In" Type="Guid" />
+      <Parameter Name="GenreId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_ExpArtsDelete">
+      <Parameter Name="UserId" Mode="In" Type="Guid" />
+      <Parameter Name="GenreId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_MusicDelete">
+      <Parameter Name="UserId" Mode="In" Type="Guid" />
+      <Parameter Name="GenreId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_User_SportDelete">
+      <Parameter Name="UserId" Mode="In" Type="Guid" />
+      <Parameter Name="GenreId" Mode="In" Type="Int32" />
     </FunctionImport>
   </EntityContainer>
   <ComplexType Name="sp_BooksSelect_Result">

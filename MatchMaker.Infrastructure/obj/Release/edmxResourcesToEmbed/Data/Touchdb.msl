@@ -117,6 +117,7 @@
     <EntitySetMapping Name="UserMatches">
       <EntityTypeMapping TypeName="touchdbModel.UserMatch">
         <MappingFragment StoreEntitySet="UserMatch">
+          <ScalarProperty Name="MatchPercent" ColumnName="MatchPercent" />
           <ScalarProperty Name="UserId_1" ColumnName="UserId_1" />
           <ScalarProperty Name="UserId_2" ColumnName="UserId_2" />
           <ScalarProperty Name="MatchId" ColumnName="MatchId" />
@@ -375,5 +376,10 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_User_BookDelete" FunctionName="touchdbModel.Store.sp_User_BookDelete" />
+    <FunctionImportMapping FunctionImportName="sp_User_EntertainmentDelete" FunctionName="touchdbModel.Store.sp_User_EntertainmentDelete" />
+    <FunctionImportMapping FunctionImportName="sp_User_ExpArtsDelete" FunctionName="touchdbModel.Store.sp_User_ExpArtsDelete" />
+    <FunctionImportMapping FunctionImportName="sp_User_MusicDelete" FunctionName="touchdbModel.Store.sp_User_MusicDelete" />
+    <FunctionImportMapping FunctionImportName="sp_User_SportDelete" FunctionName="touchdbModel.Store.sp_User_SportDelete" />
   </EntityContainerMapping>
 </Mapping>

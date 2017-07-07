@@ -108,6 +108,7 @@
     <Property Name="UserId_1" Type="uniqueidentifier" />
     <Property Name="UserId_2" Type="uniqueidentifier" />
     <Property Name="MatchId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MatchPercent" Type="int" />
   </EntityType>
   <Association Name="FK__User_Book__Genre__5070F446">
     <End Role="Books" Type="Self.Books" Multiplicity="1" />
@@ -239,6 +240,30 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_UserMatch_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="UserMatch" Type="Self.UserMatch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserMatch">
+        <PropertyRef Name="UserId_1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserMatch_User1">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="UserMatch" Type="Self.UserMatch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserMatch">
+        <PropertyRef Name="UserId_2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Function Name="sp_BooksSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="GenreId" Type="int" Mode="In" />
   </Function>
@@ -275,7 +300,15 @@
   <Function Name="sp_SportsSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="GenreId" Type="int" Mode="In" />
   </Function>
+  <Function Name="sp_User_BookDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="GenreId" Type="int" Mode="In" />
+  </Function>
   <Function Name="sp_User_BooksRegister" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="GenreId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_User_EntertainmentDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
     <Parameter Name="GenreId" Type="int" Mode="In" />
   </Function>
@@ -283,11 +316,23 @@
     <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
     <Parameter Name="GenreId" Type="int" Mode="In" />
   </Function>
+  <Function Name="sp_User_ExpArtsDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="GenreId" Type="int" Mode="In" />
+  </Function>
   <Function Name="sp_User_ExpArtsRegister" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
     <Parameter Name="GenreId" Type="int" Mode="In" />
   </Function>
+  <Function Name="sp_User_MusicDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="GenreId" Type="int" Mode="In" />
+  </Function>
   <Function Name="sp_User_MusicRegister" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="GenreId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_User_SportDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
     <Parameter Name="GenreId" Type="int" Mode="In" />
   </Function>
@@ -392,6 +437,14 @@
     <AssociationSet Name="FK__User_Spor__UserI__4BAC3F29" Association="Self.FK__User_Spor__UserI__4BAC3F29">
       <End Role="User" EntitySet="User" />
       <End Role="User_Sport" EntitySet="User_Sport" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserMatch_User" Association="Self.FK_UserMatch_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserMatch" EntitySet="UserMatch" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserMatch_User1" Association="Self.FK_UserMatch_User1">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserMatch" EntitySet="UserMatch" />
     </AssociationSet>
   </EntityContainer>
 </Schema>

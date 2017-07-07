@@ -146,12 +146,12 @@ namespace MatchMaker.Controllers
 
         [Route("wsupdateuserprofile")]
         [HttpPost]
-        public HttpResponseMessage UpdateUserProfile(string pUserId, string pFirstName, string pLastName, string pPhoneNumber, DateTime pNacDate, char pGender, char pGenderPref, string pEmail, int pFaculty, string pImageUrl)
+        public HttpResponseMessage UpdateUserProfile(string pUserId, string pFirstName, string pLastName, string pPhoneNumber, string pNacDate, char pGender, char pGenderPref, string pEmail, int pFaculty, string pImageUrl)
         {
             try
             {
                 ResultResponseModel result = new ResultResponseModel();
-                sp_UserUpdateProfile_Result content = _db.UpdateUserProfile(pUserId, pFirstName, pLastName, pPhoneNumber, pNacDate, pGender, pGenderPref, pEmail, pFaculty, pImageUrl);
+                sp_UserUpdateProfile_Result content = _db.UpdateUserProfile(pUserId, pFirstName, pLastName, pPhoneNumber, DateTime.Parse(pNacDate), pGender, pGenderPref, pEmail, pFaculty, pImageUrl);
                 result.Result = content;
                 result.Error = new { Error = 200, ErrorMessage = "Ok" };
                 return Request.CreateResponse(HttpStatusCode.OK, result);
