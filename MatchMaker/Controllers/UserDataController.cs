@@ -533,7 +533,7 @@ namespace MatchMaker.Controllers
             }
         }
 
-        [Route("wsdeleteBook")]
+        [Route("wsdeletebook")]
         [HttpPost]
         public HttpResponseMessage DeleteBookInApp(string pUserId, int pGenreId)
         {
@@ -567,7 +567,7 @@ namespace MatchMaker.Controllers
             }
         }
 
-        [Route("wsdeleteMusic")]
+        [Route("wsdeletemusic")]
         [HttpPost]
         public HttpResponseMessage DeleteMusicInApp(string pUserId, int pGenreId)
         {
@@ -601,7 +601,7 @@ namespace MatchMaker.Controllers
             }
         }
 
-        [Route("wsdeleteSport")]
+        [Route("wsdeletesport")]
         [HttpPost]
         public HttpResponseMessage DeleteSportInApp(string pUserId, int pGenreId)
         {
@@ -635,7 +635,7 @@ namespace MatchMaker.Controllers
             }
         }
 
-        [Route("wsdeleteArt")]
+        [Route("wsdeleteart")]
         [HttpPost]
         public HttpResponseMessage DeleteArtInApp(string pUserId, int pGenreId)
         {
@@ -669,7 +669,7 @@ namespace MatchMaker.Controllers
             }
         }
 
-        [Route("wsdeleteEntertainment")]
+        [Route("wsdeleteentertainment")]
         [HttpPost]
         public HttpResponseMessage DeleteEntertainmentInApp(string pUserId, int pGenreId)
         {
